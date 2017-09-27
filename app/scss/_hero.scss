@@ -1,0 +1,18 @@
+.hero{
+	.slide1{
+		background-image: url(../images/couples.jpg);
+		@include heroImg();
+	}
+	.slide2{
+		background-image: url(../images/depression.jpg);
+		@include heroImg();
+	}
+	.slide3{
+		background-image: url(../images/joy.jpg);
+		@include heroImg();
+	}
+	.slide4{
+		background-image: url(../images/parenting.jpg);
+		@include heroImg();
+	}
+}

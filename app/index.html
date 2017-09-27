@@ -51,16 +51,18 @@
 	<!-- BOOTSTRAP 4 STYLESHEETS & CUSTOM - before all other stylesheets -->
 	<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" href="css/styles.css">
+	
 	<!-- Google Material Icons & MFB & MODERNIZR-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="../node_modules/mfb/src/mfb.css">
 	<script src="../node_modules/mfb/src/lib/modernizr.touch.js"></script>
+	
 	<!-- FontAwesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
-	<!-- Owl carousel -->
-	<link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.css" />
-	<link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.theme.default.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0=" crossorigin="anonymous" />
+	
+	<!-- Slick carousel -->
+	<link rel="stylesheet" href="../node_modules/slick-carousel/slick/slick.css">
+	<link rel="stylesheet" href="../node_modules/slick-carousel/slick/slick-theme.css">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -71,18 +73,65 @@
 
 </head>
 
-<body id="page-top">	
-
-
+<body id="page-top">
+	
+<!-- CONTACT FLOAT /////////////////////////////////////////////////////////////////////////////////////////////////// -->
+				
+	<ul class="mfb-component--br mfb-slidein" data-mfb-toggle="hover">
+  		<li class="mfb-component__wrap">
+    		<!-- the main menu button -->
+    		<a data-mfb-label="{{the label text of the main button}}" class="mfb-component__button--main">
+      			<!-- the main button icon visibile by default -->
+      			<i class="mfb-component__main-icon--resting material-icons">add</i>
+      			<!-- the main button icon visibile when the user is hovering/interacting with the menu -->
+      			<i class="mfb-component__main-icon--active material-icons">clear</i>
+    		</a>
+    		<ul class="mfb-component__list">
+      			<!-- a child button, repeat as many times as needed -->
+      			<li>
+        			<a href="link.html" data-mfb-label="{{the label text of the a child button}}" class="mfb-component__button--child">
+          				<i class="mfb-component__child-icon material-icons"></i>
+        			</a>
+      			</li>
+      			<li>
+        			<a href="link.html" data-mfb-label="Give us a call" class="mfb-component__button--child">
+          				<i class="mfb-component__child-icon material-icons">phone</i>
+        			</a>
+      			</li>
+      			<li>
+        			<a href="link.html" data-mfb-label="Send us an email" class="mfb-component__button--child">
+          				<i class="mfb-component__child-icon material-icons">mail</i>
+        			</a>
+      			</li>
+      			<li>
+        			<a href="#page-top" data-mfb-label="Back to top" class="mfb-component__button--child">
+          				<i class="mfb-component__child-icon material-icons">keyboard_arrow_up</i>
+        			</a>
+      			</li>
+    		</ul>
+  		</li>
+	</ul>
+	
+<!-- CAROUSEL HERO /////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	
+	<div class="slider hero">
+		<div class="slide1"></div>
+		<div class="slide2"></div>
+		<div class="slide3"></div>
+		<div class="slide4"></div>
+	</div>
 
 <!-- BOOTSTRAP 4 JS & JQUERY - jquery and popper first /////////////////////////////////////////////////////////////// -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 	<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<!-- OWL CAROUSEL //////////////////////////////////////////////////////////////////////////////////////////////////// -->
-	<script src="../node_modules/owl.carousel/dist/owl.carousel.js"></script>
+	
+<!-- SLICK CAROUSEL ////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<script src="../node_modules/slick-carousel/slick/slick.js"></script>
+		
 <!-- MFB JS ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 	<script src="../node_modules/mfb/src/mfb.min.js"></script>
+	
 <!-- CUSTOM JS /////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 	<script src="js/custom.js"></script>
 
