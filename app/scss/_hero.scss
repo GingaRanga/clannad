@@ -1,18 +1,18 @@
 .hero{
 	.slide1{
-		background-image: url(../images/couples.jpg);
+		background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)), url(../images/couples.jpg);
 		@include heroImg();
 	}
 	.slide2{
-		background-image: url(../images/depression.jpg);
+		background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)), url(../images/depression.jpg);
 		@include heroImg();
 	}
 	.slide3{
-		background-image: url(../images/joy.jpg);
+		background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)), url(../images/joy.jpg);
 		@include heroImg();
 	}
 	.slide4{
-		background-image: url(../images/parenting.jpg);
+		background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)), url(../images/parenting.jpg);
 		@include heroImg();
 	}
 }
