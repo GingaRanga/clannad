@@ -1,3 +1,6 @@
+section {
+  padding: 85px 0; }
+
 .hero .slide1 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.8))), url(../images/couples.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../images/couples.jpg);
@@ -10,24 +13,6 @@
 .hero .slide2 {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.8))), url(../images/depression.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../images/depression.jpg);
-  position: relative;
-  height: 90vh;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.hero .slide3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.8))), url(../images/joy.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../images/joy.jpg);
-  position: relative;
-  height: 90vh;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.hero .slide4 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.8))), url(../images/parenting.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../images/parenting.jpg);
   position: relative;
   height: 90vh;
   background-position: center center;

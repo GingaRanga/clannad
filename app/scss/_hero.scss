@@ -7,12 +7,4 @@
 		background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)), url(../images/depression.jpg);
 		@include heroImg();
 	}
-	.slide3{
-		background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)), url(../images/joy.jpg);
-		@include heroImg();
-	}
-	.slide4{
-		background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)), url(../images/parenting.jpg);
-		@include heroImg();
-	}
 }
