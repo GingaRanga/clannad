@@ -1,4 +1,5 @@
 .hero{
+	position: relative;
 	.slide1{
 		background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)), url(../images/couples.jpg);
 		@include heroImg();
@@ -6,5 +7,8 @@
 	.slide2{
 		background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)), url(../images/depression.jpg);
 		@include heroImg();
+	}
+	.hero-text{
+		padding: 3rem 1.5rem;
 	}
 }
