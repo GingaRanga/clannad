@@ -1,0 +1,10 @@
+.hero{
+	.slide1{
+		background: linear-gradient(rgba(0,0,0,0.7),rgba(255,255,255,0.7)), url('../assets/img/Feet_in_Hands.jpg');
+		@include heroImg();
+	}
+
+	.hero-text{
+		padding: 3rem 1.5rem;
+	}
+}
