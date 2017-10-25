@@ -11,7 +11,7 @@
 #A7D2CB - clean
 */
 body {
-  padding-top: 54px; }
+  padding-top: 76px; }
 
 section {
   padding: 85px 0; }
@@ -19,16 +19,16 @@ section {
 i {
   padding: 0 1rem; }
 
-.hero .slide1 {
+.hero {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.7)), url("../assets/img/Feet_in_Hands.jpg");
   position: relative;
   height: 100vh;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover; }
-
-.hero .hero-text {
-  padding: 3rem 1.5rem; }
+  background-size: cover;
+  background-attachment: fixed; }
+  .hero .hero-text {
+    padding: 3rem 1.5rem; }
 
 .cards {
   margin-top: -100px; }

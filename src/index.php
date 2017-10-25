@@ -79,26 +79,23 @@
 	<!-- HEADER ////////////////////////////////////////////////////////////////////////////////////////// -->
 
 	<header class="fixed-top">
-		<div class="header-top bg-dark pt-2">
+		<div class="header-top bg-dark">
 			<div class="container">
 				<div class="row">
-					<div class="col-2">
-						<ul class="list-unstyled list-inline">
-							<li class="list-inline-item"><a href="#"><i class="fa fa-facebook text-white"></i></a></li>
-							<!--<li class="list-inline-item"><a href="#"><i class="fa fa-twitter text-white"></i></a></li>-->
-							<li class="list-inline-item"><a href="#"><i class="fa fa-instagram text-white"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin text-white"></i></a></li>
-						</ul>
-					</div>
-					<div class="col-8">
-						<ul class="list-unstyled list-inline">
-							<li class="list-inline-item"><a href="#"><i class="material-icons text-white">phone</i> XXX-XXX-XXXX</a></li>
-							<li class="list-inline-item"><a href="#"><i class="material-icons text-white">access_time</i> Mon &#45; Fri 8&#58;00 to 4&#58;00</a></li>
-							<li class="list-inline-item"><a href="#"><i class="material-icons text-white">mail_outline</i> info&#64;clannad.ca</a></li>
-						</ul>
-					</div>
-					<div class="col-2">
-						<a href="#" class="btn btn-light" role="button">Reservation Form</a>
+					<div class="d-flex pt-2 pb-2 align-items-center">
+						<div class="col-lg-4">
+							<a href="#"><i class="fa fa-facebook text-white"></i></a>
+							<a href="#"><i class="fa fa-instagram text-white"></i></a>
+							<a href="#"><i class="fa fa-linkedin text-white"></i></a>
+						</div>
+						<div class="col-lg-6">
+							<a href="#"><i class="material-icons text-white">phone</i> XXX-XXX-XXXX</a>
+							<a href="#"><i class="material-icons text-white">access_time</i> Mon &#45; Fri 8&#58;00 to 4&#58;00</a>
+							<a href="#"><i class="material-icons text-white">mail_outline</i> info&#64;clannad.ca</a>
+						</div>
+						<div class="col-lg-2">
+							<a href="#" class="btn btn-info" role="button">Reservation Form</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -109,12 +106,13 @@
 			</button>
 			<div class="collapse navbar-collapse justify-content-center" id="responsiveNav">
 				<div class="navbar-nav align-items-center">
-					<a class="nav-item nav-link" href="#">About</a>
-					<a class="nav-item nav-link" href="#">Services</a>
-					<a class="nav-item nav-link" href="#">Team</a>
-					<a class="nav-item nav-link" href="#">Testimonials</a>
-					<a class="nav-item nav-link" href="#">News</a>
-					<a class="nav-item nav-link" href="#">Contact</a>
+					<a class="nav-item nav-link" href="#about">About</a>
+					<a class="nav-item nav-link" href="#services">Services</a>
+					<a class="nav-item nav-link" href="#team">Team</a>
+					<a class="nav-item nav-link" href="#testimonials">Testimonials</a>
+					<a class="nav-item nav-link" href="#news">News</a>
+					<a class="nav-item nav-link" href="#contact">Contact</a>
+					<a class="nav-item nav-link" href="#">Resources</a>
 				</div>
 			</div>
 		</nav>
@@ -132,12 +130,6 @@
 				<i class="mfb-component__main-icon--active material-icons">clear</i>
 			</a>
 			<ul class="mfb-component__list">
-				<!-- a child button, repeat as many times as needed -->
-				<li>
-					<a href="link.html" data-mfb-label="{{the label text of the a child button}}" class="mfb-component__button--child">
-          				<i class="mfb-component__child-icon material-icons"></i>
-        			</a>
-				</li>
 				<li>
 					<a href="link.html" data-mfb-label="Give us a call" class="mfb-component__button--child">
           				<i class="mfb-component__child-icon material-icons">phone</i>
@@ -159,54 +151,45 @@
 
 	<!-- CAROUSEL HERO /////////////////////////////////////////////////////////////////////////////////// -->
 
-	<div class="slider hero text-light">
-		<div class="slide1">
-			<div class="container text-center">
-				<div class="hero-text d-flex flex-column align-items-center">
-					<img src="assets/img/Artboard_1.svg" width="25%" height="20%" alt="company logo">
-					<div class="row">
-						<div class="col-4"></div>
-						<div class="col-4">
-							<p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptatem unde, quas laudantium aliquam! Molestias possimus ea, quis repudiandae.</p>
-						</div>
-						<div class="col-4"></div>
-					</div>
-				</div>
+	<section class="hero text-light text-center">
+		<div class="container">
+			<div class="hero-text d-flex flex-column align-items-center">
+				<img src="assets/img/Artboard_1.svg" width="25%" height="20%" alt="company logo">
+				<p class="text-dark">Provide a safe holding environment for healing relationships</p>
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<!-- QUICK CARDS ///////////////////////////////////////////////////////////////////////////////////// -->
 
 	<div class="container">
-		<div class="row pb-5">
-			<div class="col-lg-4 cards">
-				<div class="card">
-					<img class="card-img-top img-fluid" src="assets/img/highlands.jpg" alt="Card image cap">
-					<div class="card-body">
-						<h4 class="card-title">Special title treatment</h4>
-						<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-						<a href="#" class="btn btn-warning">Go somewhere</a>
+		<div class="row">
+			<div class="card-wrap pb-5 text-center d-flex">
+				<div class="col-lg-4 cards">
+					<div class="card">
+						<img class="card-img-top img-fluid" src="assets/img/highlands.jpg" alt="Card image cap">
+						<div class="card-body bg-primary">
+							<h4 class="card-title">Stress, anxiety and worry</h4>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-4 cards">
-				<div class="card">
-					<img class="card-img-top img-fluid" src="assets/img/road.jpg" alt="Card image cap">
-					<div class="card-body">
-						<h4 class="card-title">Special title treatment</h4>
-						<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-						<a href="#" class="btn btn-warning">Go somewhere</a>
+				<div class="col-lg-4 cards">
+					<div class="card">
+						<img class="card-img-top img-fluid" src="assets/img/road.jpg" alt="Card image cap">
+						<div class="card-body bg-primary">
+							<h4 class="card-title">Marriage/family difficulties</h4>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-4 cards">
-				<div class="card">
-					<img class="card-img-top img-fluid" src="assets/img/img_3544.jpg" alt="Card image cap">
-					<div class="card-body">
-						<h4 class="card-title">Special title treatment</h4>
-						<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-						<a href="#" class="btn btn-warning">Go somewhere</a>
+				<div class="col-lg-4 cards">
+					<div class="card">
+						<img class="card-img-top img-fluid" src="assets/img/horse.jpg" alt="Card image cap">
+						<div class="card-body bg-primary">
+							<h4 class="card-title">Bereavement, grief and loss</h4>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -219,53 +202,49 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<img src="assets/img/img_2467.jpg" alt="" class="img-fluid">
-					<h4>Who we are</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam aspernatur ex distinctio ipsum ratione cupiditate.</p>
-					<button type="button" class="btn btn-warning">Read more...</button>
+					<img src="assets/img/Artboard_1.svg" alt="" class="img-fluid img-thumbnail" width="50%">
+					<h4 class="pt-2">Our Logo</h4>
+					<hr>
+					<p class="text-muted">The keltic symbol for tree of life and family</p>
 				</div>
 				<div class="col-lg-6">
-					<h4>Sample Title</h4>
+					<h4>Our Mission</h4>
 					<hr>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente molestiae quasi reiciendis repellat consequuntur, consectetur ipsa placeat recusandae eius perferendis odit voluptate iusto, ex nulla assumenda molestias minima, quo officiis.</p>
-					<div class="row">
-						<div class="col-lg-6">
-							<div class="media">
-								<i class="material-icons">question_answer</i>
-								<div class="media-body">
-									<h5 class="mt-0">Media heading</h5> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
-									<button type="button" class="btn btn-warning">Read more...</button>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="media">
-								<i class="material-icons">content_paste</i>
-								<div class="media-body">
-									<h5 class="mt-0">Media heading</h5> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
-									<button type="button" class="btn btn-warning">Read more...</button>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="media">
-								<i class="material-icons">color_lens</i>
-								<div class="media-body">
-									<h5 class="mt-0">Media heading</h5> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
-									<button type="button" class="btn btn-warning">Read more...</button>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="media">
-								<i class="material-icons">school</i>
-								<div class="media-body">
-									<h5 class="mt-0">Media heading</h5> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
-									<button type="button" class="btn btn-warning">Read more...</button>
-								</div>
-							</div>
+					<p class="lead">Providing hope and healing for families within our community through professional, inclusive and holistic therapy services and training</p>
+					<hr>
+					<p class="text-muted">We accomplish our mission with a focus in key areas</p>
+					<div class="media">
+						<i class="material-icons">question_answer</i>
+						<div class="media-body">
+							<h5 class="mt-0">Relationships</h5>
 						</div>
 					</div>
+					<div class="media">
+						<i class="material-icons">content_paste</i>
+						<div class="media-body">
+							<h5 class="mt-0">Inclusiveness</h5>
+						</div>
+					</div>
+					<div class="media">
+						<i class="material-icons">color_lens</i>
+						<div class="media-body">
+							<h5 class="mt-0">Quality</h5>
+						</div>
+					</div>
+					<div class="media">
+						<i class="material-icons">school</i>
+						<div class="media-body">
+							<h5 class="mt-0">Hope</h5>
+						</div>
+					</div>
+					<!--
+					<div class="media">
+						<i class="material-icons">school</i>
+						<div class="media-body">
+							<h5 class="mt-0">Hope</h5>
+						</div>
+					</div>
+				-->
 				</div>
 			</div>
 		</div>
@@ -273,17 +252,15 @@
 
 	<!-- SERVICES //////////////////////////////////////////////////////////////////////////////////////// -->
 
-	<section id="services">
-		<div class="container text-center">
+	<section id="services" class="text-center">
+		<div class="container">
 			<h1>Our Services</h1>
 			<hr>
 			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda non delectus quasi totam earum mollitia.</p>
-		</div>
-		<div class="container">
 			<div class="slider service-slide">
 				<div class="slide1">
 					<div class="card bg-light m-2">
-						<img class="card-img-top" src="assets/img/img_2468.jpg" alt="Card image cap">
+						<img class="card-img-top" src="assets/img/img_2467.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Special title treatment</h4>
 							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -303,7 +280,7 @@
 				</div>
 				<div class="slide3">
 					<div class="card bg-light m-2">
-						<img class="card-img-top" src="assets/img/img_2470.jpg" alt="Card image cap">
+						<img class="card-img-top" src="assets/img/img_3505.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Special title treatment</h4>
 							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -313,7 +290,7 @@
 				</div>
 				<div class="slide4">
 					<div class="card bg-light m-2">
-						<img class="card-img-top" src="assets/img/img_3343.jpg" alt="Card image cap">
+						<img class="card-img-top" src="assets/img/img_3503.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Special title treatment</h4>
 							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -323,26 +300,6 @@
 				</div>
 				<div class="slide5">
 					<div class="card bg-light m-2">
-						<img class="card-img-top" src="assets/img/img_3468.jpg" alt="Card image cap">
-						<div class="card-body">
-							<h4 class="card-title">Special title treatment</h4>
-							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-							<a href="#" class="btn btn-warning">Go somewhere</a>
-						</div>
-					</div>
-				</div>
-				<div class="slide6">
-					<div class="card bg-light m-2">
-						<img class="card-img-top" src="assets/img/img_3469.jpg" alt="Card image cap">
-						<div class="card-body">
-							<h4 class="card-title">Special title treatment</h4>
-							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-							<a href="#" class="btn btn-warning">Go somewhere</a>
-						</div>
-					</div>
-				</div>
-				<div class="slide7">
-					<div class="card bg-light m-2">
 						<img class="card-img-top" src="assets/img/img_3474.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Special title treatment</h4>
@@ -351,7 +308,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide8">
+				<div class="slide6">
 					<div class="card bg-light m-2">
 						<img class="card-img-top" src="assets/img/img_3486.jpg" alt="Card image cap">
 						<div class="card-body">
@@ -365,19 +322,19 @@
 		</div>
 	</section>
 
-	<!-- CONTACT SECTION ///////////////////////////////////////////////////////////////////////////////// -->
+	<!-- APPLY SECTION ///////////////////////////////////////////////////////////////////////////////// -->
 
-	<section class="text-center contact text-white" id="contactSec">
+	<section class="text-center contact text-white" id="apply">
 		<div class="container">
-			<h1>Example Header</h1>
+			<h1>We are here to help</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sequi porro laborum repellat earum maiores dolores laudantium ex dolorum, facilis ad, numquam, quas omnis. Quo officia, minima aliquam in voluptates.</p>
-			<button type="button" class="btn btn-light">Right</button>
+			<button type="button" class="btn btn-warning">Book a Consult</button>
 		</div>
 	</section>
 
 	<!-- EMPLOYEE SECTION //////////////////////////////////////////////////////////////////////////////// -->
 
-	<section id="employee" class="text-center">
+	<section id="team" class="text-center">
 		<div class="container">
 			<h1 class="text-left">Our Counselors</h1>
 			<hr>
@@ -386,21 +343,23 @@
 			<div class="row">
 				<div class="p-2 col-lg-6">
 					<img src="assets/img/stephanie.townsend-39.jpg" alt="" class="img-fluid rounded-circle" width="50%">
-					<h3 class="title">Stephanie Townsend</h3>
+					<h3 class="title pt-2">Stephanie Townsend</h3>
+					<h5>- Counselor -</h5>
 					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non esse pariatur aliquam nulla suscipit expedita.</p>
 				</div>
 				<div class="p-2 col-lg-6">
 					<img src="assets/img/michelle.macissac-16.jpg" alt="" class="img-fluid rounded-circle" width="50%">
-					<h3 class="title">Michelle MacIssac</h3>
+					<h3 class="title pt-2">Michelle MacIssac</h3>
+					<h5>- Counselor -</h5>
 					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non esse pariatur aliquam nulla suscipit expedita.</p>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!-- FOOTER SECTION ////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- NEWS SECTION ////////////////////////////////////////////////////////////////////////////////// -->
 
-	
+
 
 	<!-- BOOTSTRAP 4 JS & JQUERY - jquery and popper first /////////////////////////////////////////////// -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
