@@ -50,20 +50,20 @@
 	<meta itemprop="image" content="https://example.com/image.jpg">
 
 	<!-- BOOTSTRAP 4 STYLESHEETS & CUSTOM - before all other stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.min.css">
 
 	<!-- Google Material Icons & MFB & MODERNIZR-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="css/mfb.css">
+	<link rel="stylesheet" href="css/mfb.min.css">
 	<script src="js/modernizr.touch.js"></script>
 
 	<!-- FontAwesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
 
 	<!-- Slick carousel -->
-	<link rel="stylesheet" href="css/slick.css">
-	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/slick.min.css">
+	<link rel="stylesheet" href="css/slick-theme.min.css">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -164,7 +164,7 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="card-wrap pb-5 text-center d-flex">
+			<div class="card-wrap pb-5 text-center d-flex text-white">
 				<div class="col-lg-4 cards">
 					<div class="card">
 						<img class="card-img-top img-fluid" src="assets/img/highlands.jpg" alt="Card image cap">
@@ -367,10 +367,10 @@
 	<script src="js/bootstrap.min.js"></script>
 
 	<!-- SLICK CAROUSEL ////////////////////////////////////////////////////////////////////////////////// -->
-	<script src="js/slick.js"></script>
+	<script src="js/slick.min.js"></script>
 
 	<!-- MFB JS ////////////////////////////////////////////////////////////////////////////////////////// -->
-	<script src="js/mfb.js"></script>
+	<script src="js/mfb.min.js"></script>
 
 	<!-- GSAP JS ///////////////////////////////////////////////////////////////////////////////////////// -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenLite.min.js" integrity="sha256-urKHuZ772q9CZZjbN5geWh0ObNvIL4INeQTSQkZC2/M=" crossorigin="anonymous"></script>
@@ -378,7 +378,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/easing/EasePack.min.js" integrity="sha256-s+GIux/BR9VHE/ZEUljQnq/7vhsLnKMxxOtGjcDQE4w=" crossorigin="anonymous"></script>
 
 	<!-- CUSTOM JS /////////////////////////////////////////////////////////////////////////////////////// -->
-	<script src="js/custom.js"></script>
+	<script src="js/custom.min.js"></script>
 
 </body>
 
