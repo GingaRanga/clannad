@@ -50,8 +50,8 @@
 	<meta itemprop="image" content="https://example.com/image.jpg">
 
 	<!-- BOOTSTRAP 4 STYLESHEETS & CUSTOM - before all other stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/styles.min.css">
+	<link rel="stylesheet" href="/css/bootstrap.css">
+	<link rel="stylesheet" href="/css/styles.css">
 
 	<!-- Google Material Icons & MFB & MODERNIZR-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -378,7 +378,12 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/easing/EasePack.min.js" integrity="sha256-s+GIux/BR9VHE/ZEUljQnq/7vhsLnKMxxOtGjcDQE4w=" crossorigin="anonymous"></script>
 
 	<!-- CUSTOM JS /////////////////////////////////////////////////////////////////////////////////////// -->
-	<script src="js/custom.min.js"></script>
+	<!-- handlebars library -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js" integrity="sha256-+JMHsXRyeTsws/tzbIh5YHQxRdKCuNjmvNcTFtY6DLc=" crossorigin="anonymous"></script>
+	<script src="/js/templates.js"></script> -->
+	<script src="/js/scripts.js"></script>
+	<!-- livereload script -->
+	<script src="http://localhost:35729/livereload.js"></script>
 
 </body>
 
