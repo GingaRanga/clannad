@@ -55,15 +55,15 @@
 
 	<!-- Google Material Icons & MFB & MODERNIZR-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="css/mfb.min.css">
-	<script src="js/modernizr.touch.js"></script>
+	<link rel="stylesheet" href="/css/mfb.css">
+	<script src="/js/modernizr.touch.js"></script>
 
 	<!-- FontAwesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
 
 	<!-- Slick carousel -->
-	<link rel="stylesheet" href="css/slick.min.css">
-	<link rel="stylesheet" href="css/slick-theme.min.css">
+	<link rel="stylesheet" href="/css/slick.css">
+	<link rel="stylesheet" href="/css/slick-theme.css">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -154,7 +154,7 @@
 	<section class="hero text-light text-center">
 		<div class="container">
 			<div class="hero-text d-flex flex-column align-items-center">
-				<img src="assets/img/Artboard_1.svg" width="25%" height="20%" alt="company logo">
+				<img src="/media/img/Artboard_1.svg" width="25%" height="20%" alt="company logo">
 				<p class="text-dark">Provide a safe holding environment for healing relationships</p>
 			</div>
 		</div>
@@ -167,7 +167,7 @@
 			<div class="card-wrap pb-5 text-center d-flex text-white">
 				<div class="col-lg-4 cards">
 					<div class="card">
-						<img class="card-img-top img-fluid" src="assets/img/highlands.jpg" alt="Card image cap">
+						<img class="card-img-top img-fluid" src="/media/img/highlands.jpg" alt="Card image cap">
 						<div class="card-body bg-primary">
 							<h4 class="card-title">Stress, anxiety and worry</h4>
 							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -176,7 +176,7 @@
 				</div>
 				<div class="col-lg-4 cards">
 					<div class="card">
-						<img class="card-img-top img-fluid" src="assets/img/road.jpg" alt="Card image cap">
+						<img class="card-img-top img-fluid" src="/media/img/road.jpg" alt="Card image cap">
 						<div class="card-body bg-primary">
 							<h4 class="card-title">Marriage/family difficulties</h4>
 							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -185,7 +185,7 @@
 				</div>
 				<div class="col-lg-4 cards">
 					<div class="card">
-						<img class="card-img-top img-fluid" src="assets/img/horse.jpg" alt="Card image cap">
+						<img class="card-img-top img-fluid" src="/media/img/horse.jpg" alt="Card image cap">
 						<div class="card-body bg-primary">
 							<h4 class="card-title">Bereavement, grief and loss</h4>
 							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -202,7 +202,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<img src="assets/img/Artboard_1.svg" alt="" class="img-fluid img-thumbnail" width="50%">
+					<img src="/media/img/Artboard_1.svg" alt="" class="img-fluid img-thumbnail" width="50%">
 					<h4 class="pt-2">Our Logo</h4>
 					<hr>
 					<p class="text-muted">The keltic symbol for tree of life and family</p>
@@ -260,7 +260,7 @@
 			<div class="slider service-slide">
 				<div class="slide1">
 					<div class="card bg-light m-2">
-						<img class="card-img-top" src="assets/img/img_2467.jpg" alt="Card image cap">
+						<img class="card-img-top" src="/media/img/img_2467.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Special title treatment</h4>
 							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -270,7 +270,7 @@
 				</div>
 				<div class="slide2">
 					<div class="card bg-light m-2">
-						<img class="card-img-top" src="assets/img/img_2469.jpg" alt="Card image cap">
+						<img class="card-img-top" src="/media/img/img_2469.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Special title treatment</h4>
 							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -280,7 +280,7 @@
 				</div>
 				<div class="slide3">
 					<div class="card bg-light m-2">
-						<img class="card-img-top" src="assets/img/img_3505.jpg" alt="Card image cap">
+						<img class="card-img-top" src="/media/img/img_3505.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Special title treatment</h4>
 							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -290,7 +290,7 @@
 				</div>
 				<div class="slide4">
 					<div class="card bg-light m-2">
-						<img class="card-img-top" src="assets/img/img_3503.jpg" alt="Card image cap">
+						<img class="card-img-top" src="/media/img/img_3503.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Special title treatment</h4>
 							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -300,7 +300,7 @@
 				</div>
 				<div class="slide5">
 					<div class="card bg-light m-2">
-						<img class="card-img-top" src="assets/img/img_3474.jpg" alt="Card image cap">
+						<img class="card-img-top" src="/media/img/img_3474.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Special title treatment</h4>
 							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -310,7 +310,7 @@
 				</div>
 				<div class="slide6">
 					<div class="card bg-light m-2">
-						<img class="card-img-top" src="assets/img/img_3486.jpg" alt="Card image cap">
+						<img class="card-img-top" src="/media/img/img_3486.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Special title treatment</h4>
 							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -342,13 +342,13 @@
 		<div class="container d-flex">
 			<div class="row">
 				<div class="p-2 col-lg-6">
-					<img src="assets/img/stephanie.townsend-39.jpg" alt="" class="img-fluid rounded-circle" width="50%">
+					<img src="/media/img/stephanie.townsend-39.jpg" alt="" class="img-fluid rounded-circle" width="50%">
 					<h3 class="title pt-2">Stephanie Townsend</h3>
 					<h5>- Counselor -</h5>
 					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non esse pariatur aliquam nulla suscipit expedita.</p>
 				</div>
 				<div class="p-2 col-lg-6">
-					<img src="assets/img/michelle.macissac-16.jpg" alt="" class="img-fluid rounded-circle" width="50%">
+					<img src="/media/img/michelle.macissac-16.jpg" alt="" class="img-fluid rounded-circle" width="50%">
 					<h3 class="title pt-2">Michelle MacIssac</h3>
 					<h5>- Counselor -</h5>
 					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non esse pariatur aliquam nulla suscipit expedita.</p>
@@ -364,13 +364,13 @@
 	<!-- BOOTSTRAP 4 JS & JQUERY - jquery and popper first /////////////////////////////////////////////// -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
 
 	<!-- SLICK CAROUSEL ////////////////////////////////////////////////////////////////////////////////// -->
-	<script src="js/slick.min.js"></script>
+	<script src="/js/slick.min.js"></script>
 
 	<!-- MFB JS ////////////////////////////////////////////////////////////////////////////////////////// -->
-	<script src="js/mfb.min.js"></script>
+	<script src="/js/mfb.min.js"></script>
 
 	<!-- GSAP JS ///////////////////////////////////////////////////////////////////////////////////////// -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenLite.min.js" integrity="sha256-urKHuZ772q9CZZjbN5geWh0ObNvIL4INeQTSQkZC2/M=" crossorigin="anonymous"></script>
