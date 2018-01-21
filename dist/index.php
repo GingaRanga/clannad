@@ -154,7 +154,7 @@
 	<section class="hero text-light text-center">
 		<div class="container">
 			<div class="hero-text d-flex flex-column align-items-center">
-				<img src="/media/img/Artboard_1.svg" width="25%" height="20%" alt="company logo">
+				<img src="/img/Artboard_1.svg" width="25%" height="20%" alt="company logo">
 				<p class="text-dark">Provide a safe holding environment for healing relationships</p>
 			</div>
 		</div>
@@ -167,7 +167,7 @@
 			<div class="card-wrap pb-5 text-center d-flex text-white">
 				<div class="col-lg-4 cards">
 					<div class="card">
-						<img class="card-img-top img-fluid" src="/media/img/highlands.jpg" alt="Card image cap">
+						<img class="card-img-top img-fluid" src="/img/highlands.jpg" alt="Card image cap">
 						<div class="card-body bg-primary">
 							<h4 class="card-title">Stress, anxiety and worry</h4>
 							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -176,7 +176,7 @@
 				</div>
 				<div class="col-lg-4 cards">
 					<div class="card">
-						<img class="card-img-top img-fluid" src="/media/img/road.jpg" alt="Card image cap">
+						<img class="card-img-top img-fluid" src="/img/road.jpg" alt="Card image cap">
 						<div class="card-body bg-primary">
 							<h4 class="card-title">Marriage/family difficulties</h4>
 							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -185,7 +185,7 @@
 				</div>
 				<div class="col-lg-4 cards">
 					<div class="card">
-						<img class="card-img-top img-fluid" src="/media/img/horse.jpg" alt="Card image cap">
+						<img class="card-img-top img-fluid" src="/img/horse.jpg" alt="Card image cap">
 						<div class="card-body bg-primary">
 							<h4 class="card-title">Bereavement, grief and loss</h4>
 							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -202,7 +202,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<img src="/media/img/Artboard_1.svg" alt="" class="img-fluid img-thumbnail" width="50%">
+					<img src="/img/Artboard_1.svg" alt="" class="img-fluid img-thumbnail" width="50%">
 					<h4 class="pt-2">Our Logo</h4>
 					<hr>
 					<p class="text-muted">The keltic symbol for tree of life and family</p>
@@ -342,13 +342,13 @@
 		<div class="container d-flex">
 			<div class="row">
 				<div class="p-2 col-lg-6">
-					<img src="/media/img/stephanie.townsend-39.jpg" alt="" class="img-fluid rounded-circle" width="50%">
+					<img src="/img/stephanie.townsend-39.jpg" alt="" class="img-fluid rounded-circle" width="50%">
 					<h3 class="title pt-2">Stephanie Townsend</h3>
 					<h5>- Counselor -</h5>
 					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non esse pariatur aliquam nulla suscipit expedita.</p>
 				</div>
 				<div class="p-2 col-lg-6">
-					<img src="/media/img/michelle.macissac-16.jpg" alt="" class="img-fluid rounded-circle" width="50%">
+					<img src="/img/michelle.macissac-16.jpg" alt="" class="img-fluid rounded-circle" width="50%">
 					<h3 class="title pt-2">Michelle MacIssac</h3>
 					<h5>- Counselor -</h5>
 					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non esse pariatur aliquam nulla suscipit expedita.</p>
