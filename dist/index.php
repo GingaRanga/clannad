@@ -52,18 +52,19 @@
 	<!-- BOOTSTRAP 4 STYLESHEETS & CUSTOM - before all other stylesheets -->
 	<link rel="stylesheet" href="/css/bootstrap.css">
 	<link rel="stylesheet" href="/css/styles.css">
+	<link rel="stylesheet" href="/css/cssStyles.css">
 
 	<!-- Google Material Icons & MFB & MODERNIZR-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="/css/mfb.css">
+	<!-- <link rel="stylesheet" href="/css/mfb.css"> -->
 	<script src="/js/modernizr.touch.js"></script>
 
 	<!-- FontAwesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
 
 	<!-- Slick carousel -->
-	<link rel="stylesheet" href="/css/slick.css">
-	<link rel="stylesheet" href="/css/slick-theme.css">
+	<!-- <link rel="stylesheet" href="/css/slick.css">
+	<link rel="stylesheet" href="/css/slick-theme.css"> -->
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -260,7 +261,7 @@
 			<div class="slider service-slide">
 				<div class="slide1">
 					<div class="card bg-light m-2">
-						<img class="card-img-top" src="/media/img/img_2467.jpg" alt="Card image cap">
+						<img class="card-img-top" src="/img/img_2467.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Special title treatment</h4>
 							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -270,7 +271,7 @@
 				</div>
 				<div class="slide2">
 					<div class="card bg-light m-2">
-						<img class="card-img-top" src="/media/img/img_2469.jpg" alt="Card image cap">
+						<img class="card-img-top" src="/img/img_2469.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Special title treatment</h4>
 							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -280,7 +281,7 @@
 				</div>
 				<div class="slide3">
 					<div class="card bg-light m-2">
-						<img class="card-img-top" src="/media/img/img_3505.jpg" alt="Card image cap">
+						<img class="card-img-top" src="/img/img_3505.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Special title treatment</h4>
 							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -290,7 +291,7 @@
 				</div>
 				<div class="slide4">
 					<div class="card bg-light m-2">
-						<img class="card-img-top" src="/media/img/img_3503.jpg" alt="Card image cap">
+						<img class="card-img-top" src="/img/img_3503.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Special title treatment</h4>
 							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -300,7 +301,7 @@
 				</div>
 				<div class="slide5">
 					<div class="card bg-light m-2">
-						<img class="card-img-top" src="/media/img/img_3474.jpg" alt="Card image cap">
+						<img class="card-img-top" src="/img/img_3474.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Special title treatment</h4>
 							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -310,7 +311,7 @@
 				</div>
 				<div class="slide6">
 					<div class="card bg-light m-2">
-						<img class="card-img-top" src="/media/img/img_3486.jpg" alt="Card image cap">
+						<img class="card-img-top" src="/img/img_3486.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h4 class="card-title">Special title treatment</h4>
 							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -364,13 +365,13 @@
 	<!-- BOOTSTRAP 4 JS & JQUERY - jquery and popper first /////////////////////////////////////////////// -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-	<script src="/js/bootstrap.min.js"></script>
+	<!-- <script src="/js/bootstrap.min.js"></script> -->
 
 	<!-- SLICK CAROUSEL ////////////////////////////////////////////////////////////////////////////////// -->
-	<script src="/js/slick.min.js"></script>
+	<!-- <script src="/js/slick.min.js"></script> -->
 
 	<!-- MFB JS ////////////////////////////////////////////////////////////////////////////////////////// -->
-	<script src="/js/mfb.min.js"></script>
+	<!-- <script src="/js/mfb.min.js"></script> -->
 
 	<!-- GSAP JS ///////////////////////////////////////////////////////////////////////////////////////// -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenLite.min.js" integrity="sha256-urKHuZ772q9CZZjbN5geWh0ObNvIL4INeQTSQkZC2/M=" crossorigin="anonymous"></script>
@@ -382,8 +383,6 @@
 	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js" integrity="sha256-+JMHsXRyeTsws/tzbIh5YHQxRdKCuNjmvNcTFtY6DLc=" crossorigin="anonymous"></script>
 	<script src="/js/templates.js"></script> -->
 	<script src="/js/scripts.js"></script>
-	<!-- livereload script -->
-	<script src="http://localhost:35729/livereload.js"></script>
 
 </body>
 
