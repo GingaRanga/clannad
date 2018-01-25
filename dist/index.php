@@ -75,7 +75,7 @@
 
 </head>
 
-<body id="page-top">
+<body id="page-top" style="overflow-x:hidden;">
 
 	<!-- HEADER ////////////////////////////////////////////////////////////////////////////////////////// -->
 
@@ -323,7 +323,7 @@
 		</div>
 	</section>
 
-	<!-- APPLY SECTION ///////////////////////////////////////////////////////////////////////////////// -->
+	<!-- APPLY SECTION /////////////////////////////////////////////////////////////////////////////////// -->
 
 	<section class="text-center contact text-white" id="apply">
 		<div class="container">
@@ -358,15 +358,6 @@
 		</div>
 	</section>
 
-	<!-- NEWS SECTION ////////////////////////////////////////////////////////////////////////////////// -->
-
-
-
-	<!-- BOOTSTRAP 4 JS & JQUERY - jquery and popper first /////////////////////////////////////////////// -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-	<!-- <script src="/js/bootstrap.min.js"></script> -->
-
 	<!-- SLICK CAROUSEL ////////////////////////////////////////////////////////////////////////////////// -->
 	<!-- <script src="/js/slick.min.js"></script> -->
 
@@ -377,12 +368,18 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenLite.min.js" integrity="sha256-urKHuZ772q9CZZjbN5geWh0ObNvIL4INeQTSQkZC2/M=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/CSSPlugin.min.js" integrity="sha256-DVfSynPZfzB2Mca3EebIt2UJmcQfeWPtUe0+Tghv4cc=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/easing/EasePack.min.js" integrity="sha256-s+GIux/BR9VHE/ZEUljQnq/7vhsLnKMxxOtGjcDQE4w=" crossorigin="anonymous"></script>
+	<!-- <script>window.jQuery || document.write('<script src="js/libs/jquery-1.5.1.min.js">x3C/script>')</script> -->
 
 	<!-- CUSTOM JS /////////////////////////////////////////////////////////////////////////////////////// -->
 	<!-- handlebars library -->
 	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js" integrity="sha256-+JMHsXRyeTsws/tzbIh5YHQxRdKCuNjmvNcTFtY6DLc=" crossorigin="anonymous"></script>
 	<script src="/js/templates.js"></script> -->
 	<script src="/js/scripts.js"></script>
+
+	<!-- BOOTSTRAP 4 JS & JQUERY - jquery and popper first /////////////////////////////////////////////// -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<!-- includes both bootstrap js and popper -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha256-uz0BcnPtSHZ02XZthAHPRYIoWWrcwMOmAk9ErnFQkNs=" crossorigin="anonymous"></script>
 
 </body>
 
