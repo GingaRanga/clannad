@@ -50,9 +50,7 @@
 	<meta itemprop="image" content="https://example.com/image.jpg">
 
 	<!-- BOOTSTRAP 4 STYLESHEETS & CUSTOM - before all other stylesheets -->
-	<link rel="stylesheet" href="/css/bootstrap.css">
 	<link rel="stylesheet" href="/css/styles.css">
-	<link rel="stylesheet" href="/css/cssStyles.css">
 
 	<!-- Google Material Icons & MFB & MODERNIZR-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -61,10 +59,6 @@
 
 	<!-- FontAwesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
-
-	<!-- Slick carousel -->
-	<!-- <link rel="stylesheet" href="/css/slick.css">
-	<link rel="stylesheet" href="/css/slick-theme.css"> -->
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -358,28 +352,18 @@
 		</div>
 	</section>
 
-	<!-- SLICK CAROUSEL ////////////////////////////////////////////////////////////////////////////////// -->
-	<!-- <script src="/js/slick.min.js"></script> -->
-
-	<!-- MFB JS ////////////////////////////////////////////////////////////////////////////////////////// -->
-	<!-- <script src="/js/mfb.min.js"></script> -->
-
 	<!-- GSAP JS ///////////////////////////////////////////////////////////////////////////////////////// -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenLite.min.js" integrity="sha256-urKHuZ772q9CZZjbN5geWh0ObNvIL4INeQTSQkZC2/M=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/CSSPlugin.min.js" integrity="sha256-DVfSynPZfzB2Mca3EebIt2UJmcQfeWPtUe0+Tghv4cc=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/easing/EasePack.min.js" integrity="sha256-s+GIux/BR9VHE/ZEUljQnq/7vhsLnKMxxOtGjcDQE4w=" crossorigin="anonymous"></script>
-	<!-- <script>window.jQuery || document.write('<script src="js/libs/jquery-1.5.1.min.js">x3C/script>')</script> -->
 
-	<!-- CUSTOM JS /////////////////////////////////////////////////////////////////////////////////////// -->
-	<!-- handlebars library -->
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js" integrity="sha256-+JMHsXRyeTsws/tzbIh5YHQxRdKCuNjmvNcTFtY6DLc=" crossorigin="anonymous"></script>
-	<script src="/js/templates.js"></script> -->
-	<script src="/js/scripts.js"></script>
+	<!-- <script>window.jQuery || document.write('<script src="js/libs/jquery-1.5.1.min.js">x3C/script>')</script> -->
 
 	<!-- BOOTSTRAP 4 JS & JQUERY - jquery and popper first /////////////////////////////////////////////// -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<!-- includes both bootstrap js and popper -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha256-uz0BcnPtSHZ02XZthAHPRYIoWWrcwMOmAk9ErnFQkNs=" crossorigin="anonymous"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha256-uz0BcnPtSHZ02XZthAHPRYIoWWrcwMOmAk9ErnFQkNs=" crossorigin="anonymous"></script> -->
+	<script src="/js/scripts.js"></script>
 
 </body>
 
