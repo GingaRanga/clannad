@@ -1,8 +1,5 @@
 .hero{
-	background: linear-gradient(rgba(0,0,0,0.7),rgba(255,255,255,0.7)), url('/img/Feet_in_Hands.jpg');
+	background: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,0.2)), url('/img/Feet_in_Hands.jpg');
 	@include heroImg();
 	background-attachment: fixed;
-	.hero-text{
-		padding: 3rem 1.5rem;
-	}
 }

@@ -5,7 +5,22 @@
 #A7D2CB - clean
 */
 
-$primaryColor: 		rgba(164,149,146,1);
-$secondaryLight: 	rgba(148,97,142,1);
-$secondaryDark: 	rgba(73,39,74,1);
-$accentColor: 		rgba(167,210,203,1);
+$brand-primary:	rgba(164,149,146,1);
+$brand-dark:	rgba(73,39,74,1);
+$brand-light:	rgba(148,97,142,1);
+$brand-accent:	rgba(167,210,203,1);
+
+/* BOOTSTRAP Custom */
+$theme-colors: (
+  "primary": $brand-primary,
+  "dark": $brand-dark,
+  "warning": $brand-accent,
+  "secondary": $brand-light
+);
+
+$btn-border-radius:           none;
+$btn-border-radius-lg:        none;
+$btn-border-radius-sm:        none;
+
+/* MFB Custom */
+$main-color: $brand-accent;

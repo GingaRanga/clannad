@@ -52,9 +52,7 @@
 	<!-- BOOTSTRAP 4 STYLESHEETS & CUSTOM - before all other stylesheets -->
 	<link rel="stylesheet" href="/css/styles.css">
 
-	<!-- Google Material Icons & MFB & MODERNIZR-->
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<!-- <link rel="stylesheet" href="/css/mfb.css"> -->
+	<!-- MFB & MODERNIZR-->
 	<script src="/js/modernizr.touch.js"></script>
 
 	<!-- FontAwesome -->
@@ -73,34 +71,21 @@
 
 	<!-- HEADER ////////////////////////////////////////////////////////////////////////////////////////// -->
 
-	<header class="fixed-top">
-		<div class="header-top bg-dark">
-			<div class="container">
-				<div class="row">
-					<div class="d-flex pt-2 pb-2 align-items-center">
-						<div class="col-lg-4">
-							<a href="#"><i class="fa fa-facebook text-white"></i></a>
-							<a href="#"><i class="fa fa-instagram text-white"></i></a>
-							<a href="#"><i class="fa fa-linkedin text-white"></i></a>
-						</div>
-						<div class="col-lg-6">
-							<a href="#"><i class="material-icons text-white">phone</i> XXX-XXX-XXXX</a>
-							<a href="#"><i class="material-icons text-white">access_time</i> Mon &#45; Fri 8&#58;00 to 4&#58;00</a>
-							<a href="#"><i class="material-icons text-white">mail_outline</i> info&#64;clannad.ca</a>
-						</div>
-						<div class="col-lg-2">
-							<a href="#" class="btn btn-info" role="button">Reservation Form</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<nav class="nav nav-pills nav-fill navbar-expand-lg bg-transparent">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#responsiveNav" aria-controls="responsiveNav" aria-expanded="false" aria-label="Toggle navigation">
-    			<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse justify-content-center" id="responsiveNav">
-				<div class="navbar-nav align-items-center">
+	<header class="fixed-top" id="topHeader">
+		<nav class="nav bg-dark text-white nav-fill" id="topNav">
+			<a class="nav-item nav-link" href="#"><i class="fa fa-facebook text-white"></i></a>
+			<a class="nav-item nav-link" href="#"><i class="fa fa-instagram text-white"></i></a>
+			<a class="nav-item nav-link" href="#"><i class="fa fa-phone text-warning" aria-hidden="true"></i> XXX-XXX-XXXX</a>
+			<a class="nav-link" href="#"><i class="fa fa-clock-o text-warning" aria-hidden="true"></i> Mon &#45; Fri 8&#58;00 to 4&#58;00</a>
+			<a class="nav-item nav-link" href="mailto:info@clannad.ca"><i class="fa fa-envelope text-warning" aria-hidden="true"></i> info&#64;clannad.ca</a>
+			<a class="nav-item nav-link btn btn-warning" role="button" href="#">Book a consult</a>
+		</nav>
+		<nav class="navbar navbar-expand-md bg-light" id="bottomNav">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+			<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+				<div class="navbar-nav">
 					<a class="nav-item nav-link" href="#about">About</a>
 					<a class="nav-item nav-link" href="#services">Services</a>
 					<a class="nav-item nav-link" href="#team">Team</a>
@@ -116,206 +101,76 @@
 	<!-- CONTACT FLOAT /////////////////////////////////////////////////////////////////////////////////// -->
 
 	<ul class="mfb-component--br mfb-slidein" data-mfb-toggle="hover">
-		<li class="mfb-component__wrap">
-			<!-- the main menu button -->
-			<a data-mfb-label="{{the label text of the main button}}" class="mfb-component__button--main">
-				<!-- the main button icon visibile by default -->
-				<i class="mfb-component__main-icon--resting material-icons">add</i>
-				<!-- the main button icon visibile when the user is hovering/interacting with the menu -->
-				<i class="mfb-component__main-icon--active material-icons">clear</i>
-			</a>
-			<ul class="mfb-component__list">
+	  <li class="mfb-component__wrap">
+	    <a data-mfb-label="Hover or click to expand" class="mfb-component__button--main">
+	      <i style="line-height:56px;" class="mfb-component__main-icon--resting fa fa-plus text-white fa-2x" aria-hidden="true"></i>
+	      <i style="line-height:56px;" class="mfb-component__main-icon--active fa fa-times text-white fa-2x" aria-hidden="true"></i>
+	    </a>
+	    <ul class="mfb-component__list">
 				<li>
 					<a href="link.html" data-mfb-label="Give us a call" class="mfb-component__button--child">
-          				<i class="mfb-component__child-icon material-icons">phone</i>
+          				<i style="line-height:56px;" class="mfb-component__child-icon fa fa-phone fa-2x" aria-hidden="true"></i>
         			</a>
 				</li>
 				<li>
 					<a href="link.html" data-mfb-label="Send us an email" class="mfb-component__button--child">
-          				<i class="mfb-component__child-icon material-icons">mail</i>
+          				<i style="line-height:56px;" class="mfb-component__child-icon fa fa-envelope fa-2x" aria-hidden="true"></i>
         			</a>
 				</li>
 				<li>
 					<a href="#page-top" data-mfb-label="Back to top" class="mfb-component__button--child">
-          				<i class="mfb-component__child-icon material-icons">keyboard_arrow_up</i>
+          				<i style="line-height:56px;" class="mfb-component__child-icon fa fa-arrow-circle-up fa-2x" aria-hidden="true"></i>
         			</a>
 				</li>
-			</ul>
-		</li>
+	    </ul>
+	  </li>
 	</ul>
 
 	<!-- CAROUSEL HERO /////////////////////////////////////////////////////////////////////////////////// -->
 
-	<section class="hero text-light text-center">
-		<div class="container">
-			<div class="hero-text d-flex flex-column align-items-center">
-				<img src="/img/Artboard_1.svg" width="25%" height="20%" alt="company logo">
-				<p class="text-dark">Provide a safe holding environment for healing relationships</p>
-			</div>
+	<section class="jumbotron jumbotron-fluid hero text-left">
+		<div class="container-fluid">
+			<img src="/img/Artboard_1.svg" width="25%" height="20%" alt="company logo">
+			<!-- <p class="text-primary lead">Provide a safe holding environment for healing relationships</p> -->
 		</div>
 	</section>
 
 	<!-- QUICK CARDS ///////////////////////////////////////////////////////////////////////////////////// -->
 
-	<div class="container">
+	<div class="container text-white pb-5">
 		<div class="row">
-			<div class="card-wrap pb-5 text-center d-flex text-white">
-				<div class="col-lg-4 cards">
-					<div class="card">
-						<img class="card-img-top img-fluid" src="/img/highlands.jpg" alt="Card image cap">
-						<div class="card-body bg-primary">
-							<h4 class="card-title">Stress, anxiety and worry</h4>
-							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
+			<div class="col-sm-12 col-md-4 cards">
+				<div class="card">
+					<img class="card-img-top img-fluid" src="/img/highlands.jpg" alt="Card image cap">
+					<div class="card-body bg-primary">
+						<h4 class="card-title">Stress, anxiety and worry</h4>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<a href="#" class="card-link">Another link</a>
 					</div>
 				</div>
-				<div class="col-lg-4 cards">
-					<div class="card">
-						<img class="card-img-top img-fluid" src="/img/road.jpg" alt="Card image cap">
-						<div class="card-body bg-primary">
-							<h4 class="card-title">Marriage/family difficulties</h4>
-							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
+			</div>
+			<div class="col-sm-12 col-md-4 cards">
+				<div class="card">
+					<img class="card-img-top img-fluid" src="/img/road.jpg" alt="Card image cap">
+					<div class="card-body bg-primary">
+						<h4 class="card-title">Marriage/family difficulties</h4>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<a href="#" class="card-link">Another link</a>
 					</div>
 				</div>
-				<div class="col-lg-4 cards">
-					<div class="card">
-						<img class="card-img-top img-fluid" src="/img/horse.jpg" alt="Card image cap">
-						<div class="card-body bg-primary">
-							<h4 class="card-title">Bereavement, grief and loss</h4>
-							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
+			</div>
+			<div class="col-sm-12 col-md-4 cards">
+				<div class="card">
+					<img class="card-img-top img-fluid" src="/img/horse.jpg" alt="Card image cap">
+					<div class="card-body bg-primary">
+						<h4 class="card-title">Bereavement, grief and loss</h4>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<a href="#" class="card-link">Another link</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<!-- ABOUT US //////////////////////////////////////////////////////////////////////////////////////// -->
-
-	<section id="about" class="bg-light">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<img src="/img/Artboard_1.svg" alt="" class="img-fluid img-thumbnail" width="50%">
-					<h4 class="pt-2">Our Logo</h4>
-					<hr>
-					<p class="text-muted">The keltic symbol for tree of life and family</p>
-				</div>
-				<div class="col-lg-6">
-					<h4>Our Mission</h4>
-					<hr>
-					<p class="lead">Providing hope and healing for families within our community through professional, inclusive and holistic therapy services and training</p>
-					<hr>
-					<p class="text-muted">We accomplish our mission with a focus in key areas</p>
-					<div class="media">
-						<i class="material-icons">question_answer</i>
-						<div class="media-body">
-							<h5 class="mt-0">Relationships</h5>
-						</div>
-					</div>
-					<div class="media">
-						<i class="material-icons">content_paste</i>
-						<div class="media-body">
-							<h5 class="mt-0">Inclusiveness</h5>
-						</div>
-					</div>
-					<div class="media">
-						<i class="material-icons">color_lens</i>
-						<div class="media-body">
-							<h5 class="mt-0">Quality</h5>
-						</div>
-					</div>
-					<div class="media">
-						<i class="material-icons">school</i>
-						<div class="media-body">
-							<h5 class="mt-0">Hope</h5>
-						</div>
-					</div>
-					<!--
-					<div class="media">
-						<i class="material-icons">school</i>
-						<div class="media-body">
-							<h5 class="mt-0">Hope</h5>
-						</div>
-					</div>
-				-->
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- SERVICES //////////////////////////////////////////////////////////////////////////////////////// -->
-
-	<section id="services" class="text-center">
-		<div class="container">
-			<h1>Our Services</h1>
-			<hr>
-			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda non delectus quasi totam earum mollitia.</p>
-			<div class="slider service-slide">
-				<div class="slide1">
-					<div class="card bg-light m-2">
-						<img class="card-img-top" src="/img/img_2467.jpg" alt="Card image cap">
-						<div class="card-body">
-							<h4 class="card-title">Special title treatment</h4>
-							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-							<a href="#" class="btn btn-warning">Go somewhere</a>
-						</div>
-					</div>
-				</div>
-				<div class="slide2">
-					<div class="card bg-light m-2">
-						<img class="card-img-top" src="/img/img_2469.jpg" alt="Card image cap">
-						<div class="card-body">
-							<h4 class="card-title">Special title treatment</h4>
-							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-							<a href="#" class="btn btn-warning">Go somewhere</a>
-						</div>
-					</div>
-				</div>
-				<div class="slide3">
-					<div class="card bg-light m-2">
-						<img class="card-img-top" src="/img/img_3505.jpg" alt="Card image cap">
-						<div class="card-body">
-							<h4 class="card-title">Special title treatment</h4>
-							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-							<a href="#" class="btn btn-warning">Go somewhere</a>
-						</div>
-					</div>
-				</div>
-				<div class="slide4">
-					<div class="card bg-light m-2">
-						<img class="card-img-top" src="/img/img_3503.jpg" alt="Card image cap">
-						<div class="card-body">
-							<h4 class="card-title">Special title treatment</h4>
-							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-							<a href="#" class="btn btn-warning">Go somewhere</a>
-						</div>
-					</div>
-				</div>
-				<div class="slide5">
-					<div class="card bg-light m-2">
-						<img class="card-img-top" src="/img/img_3474.jpg" alt="Card image cap">
-						<div class="card-body">
-							<h4 class="card-title">Special title treatment</h4>
-							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-							<a href="#" class="btn btn-warning">Go somewhere</a>
-						</div>
-					</div>
-				</div>
-				<div class="slide6">
-					<div class="card bg-light m-2">
-						<img class="card-img-top" src="/img/img_3486.jpg" alt="Card image cap">
-						<div class="card-body">
-							<h4 class="card-title">Special title treatment</h4>
-							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-							<a href="#" class="btn btn-warning">Go somewhere</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 
 	<!-- APPLY SECTION /////////////////////////////////////////////////////////////////////////////////// -->
 
@@ -323,7 +178,7 @@
 		<div class="container">
 			<h1>We are here to help</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sequi porro laborum repellat earum maiores dolores laudantium ex dolorum, facilis ad, numquam, quas omnis. Quo officia, minima aliquam in voluptates.</p>
-			<button type="button" class="btn btn-warning">Book a Consult</button>
+			<button type="button" class="btn btn-warning">Book a consult</button>
 		</div>
 	</section>
 

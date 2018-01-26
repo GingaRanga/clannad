@@ -1,8 +1,8 @@
 @mixin heroImg(){
 	position: relative;
-	height: 100vh;
-	//background-color: $brand-dark;
-	background-position: center center;
+	height: 85vh;
+	background-color: $brand-dark;
+	background-position: 0% -20%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }

@@ -5,14 +5,17 @@
 #A7D2CB - clean
 */
 
-body{
-	padding-top: 76px;
-}
+@include media-breakpoint-up(sm) {
+	body{
+		/* background: red; */
+		padding-top: 130px;
+		background: $light;
+	}
+	.mfb-component--br{
+		display: none;
+	}
+};
 
 section{
 	padding: 85px 0;
-}
-
-i{
-	padding: 0 1rem;
 }

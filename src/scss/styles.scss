@@ -1,13 +1,13 @@
+@import "variables";
+@import "mixins";
 @import "bootstrap/bootstrap";
 @import "mfb/mfb";
 @import "slick/slick";
 @import "slick/slick-theme";
-@import "variables";
-@import "mixins";
 @import "layout";
+@import "nav";
 @import "hero";
 @import "services";
 @import "cards";
-@import "nav";
 @import "contact";
 @import "footer";
