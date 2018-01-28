@@ -86,13 +86,12 @@
   		</button>
 			<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
 				<div class="navbar-nav">
-					<a class="nav-item nav-link" href="#about">About</a>
-					<a class="nav-item nav-link" href="#services">Services</a>
-					<a class="nav-item nav-link" href="#team">Team</a>
-					<a class="nav-item nav-link" href="#testimonials">Testimonials</a>
-					<a class="nav-item nav-link" href="#news">News</a>
-					<a class="nav-item nav-link" href="#contact">Contact</a>
-					<a class="nav-item nav-link" href="#">Resources</a>
+					<a class="nav-item nav-link" href="#">Our Services</a>
+					<a class="nav-item nav-link" href="#">Our Counselors</a>
+					<a class="nav-item nav-link" href="#">EAP</a>
+					<a class="nav-item nav-link" href="#">Workshops</a>
+					<a class="nav-item nav-link" href="#">FAQs</a>
+					<a class="nav-item nav-link" href="#">Contact Us</a>
 				</div>
 			</div>
 		</nav>
@@ -130,8 +129,7 @@
 
 	<section class="jumbotron jumbotron-fluid hero text-left">
 		<div class="container-fluid">
-			<img src="/img/Artboard_1.svg" width="25%" height="20%" alt="company logo">
-			<!-- <p class="text-primary lead">Provide a safe holding environment for healing relationships</p> -->
+			<img src="/img/main_logo.svg" width="25%" height="20%" alt="company logo">
 		</div>
 	</section>
 
@@ -141,21 +139,21 @@
 		<div class="row">
 			<div class="col-sm-12 col-md-4 cards">
 				<div class="card">
-					<img class="card-img-top img-fluid" src="/img/highlands.jpg" alt="Card image cap">
+					<img class="card-img-top img-fluid" src="/img/couple_embrace.jpg" alt="Card image cap">
 					<div class="card-body bg-primary">
-						<h4 class="card-title">Stress, anxiety and worry</h4>
-						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						<a href="#" class="card-link">Another link</a>
+						<h4 class="card-title">Our Therapy Services</h4>
+						<p class="card-text">We provide clinical therapy to individuals, couples, children, youth and families...</p>
+						<a href="#" class="card-link btn btn-secondary" role="button">Read More</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-4 cards">
 				<div class="card">
-					<img class="card-img-top img-fluid" src="/img/road.jpg" alt="Card image cap">
+					<img class="card-img-top img-fluid" src="/img/family_hands.jpg" alt="Card image cap">
 					<div class="card-body bg-primary">
-						<h4 class="card-title">Marriage/family difficulties</h4>
-						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						<a href="#" class="card-link">Another link</a>
+						<h4 class="card-title">Workshops & Training</h4>
+						<p class="card-text">Clannad offers a full range of workshops and training to the community. We deliver...</p>
+						<a href="#" class="card-link btn btn-secondary" role="button">Read More</a>
 					</div>
 				</div>
 			</div>
@@ -163,9 +161,9 @@
 				<div class="card">
 					<img class="card-img-top img-fluid" src="/img/horse.jpg" alt="Card image cap">
 					<div class="card-body bg-primary">
-						<h4 class="card-title">Bereavement, grief and loss</h4>
-						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						<a href="#" class="card-link">Another link</a>
+						<h4 class="card-title">Equine Assisted Psychotherapy (EAP)</h4>
+						<p class="card-text">Offering an alternative approach to other traditional forms of talk therapy...</p>
+						<a href="#" class="card-link btn btn-secondary" role="button">Read More</a>
 					</div>
 				</div>
 			</div>
@@ -176,9 +174,12 @@
 
 	<section class="text-center contact text-white" id="apply">
 		<div class="container">
-			<h1>We are here to help</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sequi porro laborum repellat earum maiores dolores laudantium ex dolorum, facilis ad, numquam, quas omnis. Quo officia, minima aliquam in voluptates.</p>
-			<button type="button" class="btn btn-warning">Book a consult</button>
+			<div class="quoteBg">
+				<blockquote class="blockquote">
+					<p>"I feel refreshed and excited… Super helpful information and tools that will change my approach with kids and families. This fits with who I want to be as a social worker."</p>
+					<footer class="blockquote-footer"> <cite title="Source Title">Workshop participant</cite></footer>
+				</blockquote>
+			</div>
 		</div>
 	</section>
 
@@ -192,13 +193,13 @@
 		<div class="container d-flex">
 			<div class="row">
 				<div class="p-2 col-lg-6">
-					<img src="/img/stephanie.townsend-39.jpg" alt="" class="img-fluid rounded-circle" width="50%">
+					<img src="/img/stephanie.jpg" alt="" class="img-fluid rounded-circle" width="50%">
 					<h3 class="title pt-2">Stephanie Townsend</h3>
 					<h5>- Counselor -</h5>
 					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non esse pariatur aliquam nulla suscipit expedita.</p>
 				</div>
 				<div class="p-2 col-lg-6">
-					<img src="/img/michelle.macissac-16.jpg" alt="" class="img-fluid rounded-circle" width="50%">
+					<img src="/img/michelle.jpg" alt="" class="img-fluid rounded-circle" width="50%">
 					<h3 class="title pt-2">Michelle MacIssac</h3>
 					<h5>- Counselor -</h5>
 					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non esse pariatur aliquam nulla suscipit expedita.</p>

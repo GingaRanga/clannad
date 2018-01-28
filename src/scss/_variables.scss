@@ -18,6 +18,12 @@ $theme-colors: (
   "secondary": $brand-light
 );
 
+/* $blockquote-small-color:      $gray-100; */
+
+blockquote{
+  margin-bottom: 0;
+}
+
 $btn-border-radius:           none;
 $btn-border-radius-lg:        none;
 $btn-border-radius-sm:        none;

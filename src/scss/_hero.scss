@@ -1,5 +1,5 @@
 .hero{
-	background: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,0.2)), url('/img/Feet_in_Hands.jpg');
+	background: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,0.2)), url('/img/feet_in_hands.jpg');
 	@include heroImg();
 	background-attachment: fixed;
 }
