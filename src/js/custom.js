@@ -1,5 +1,13 @@
 $(document).ready(function(){
 
+	//MOBILE NAV COLLAPSE ON CLICK
+
+	$('.navbar-nav>a').on('click', function(){
+
+		$('.navbar-collapse').collapse('hide');
+
+	});
+
 	//SLICK CAROUSEL 1
 
 	$('.service-slide').slick({

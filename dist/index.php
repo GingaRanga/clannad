@@ -57,6 +57,10 @@
 
 	<!-- FontAwesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+	<!-- Oticons Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.min.css" integrity="sha256-pNGG0948CVwfHxxS8lVkUKftaSsMBzFSUknrKr2utfY=" crossorigin="anonymous" />
+	<!-- Iconic Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -67,159 +71,24 @@
 
 </head>
 
-<body id="page-top" style="overflow-x:hidden;">
+<body id="page-top" style="overflow-x:hidden;" data-spy="scroll" data-target="#bottomNav">
 
-	<!-- HEADER ////////////////////////////////////////////////////////////////////////////////////////// -->
-
-	<header class="fixed-top" id="topHeader">
-		<nav class="nav bg-dark text-white nav-fill" id="topNav">
-			<a class="nav-item nav-link" href="#"><i class="fa fa-facebook text-white"></i></a>
-			<a class="nav-item nav-link" href="#"><i class="fa fa-instagram text-white"></i></a>
-			<a class="nav-item nav-link" href="#"><i class="fa fa-phone text-warning" aria-hidden="true"></i> XXX-XXX-XXXX</a>
-			<a class="nav-link" href="#"><i class="fa fa-clock-o text-warning" aria-hidden="true"></i> Mon &#45; Fri 8&#58;00 to 4&#58;00</a>
-			<a class="nav-item nav-link" href="mailto:info@clannad.ca"><i class="fa fa-envelope text-warning" aria-hidden="true"></i> info&#64;clannad.ca</a>
-			<a class="nav-item nav-link btn btn-warning" role="button" href="#">Book a consult</a>
-		</nav>
-		<nav class="navbar navbar-expand-md bg-light" id="bottomNav">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    		<span class="navbar-toggler-icon"></span>
-  		</button>
-			<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-				<div class="navbar-nav">
-					<a class="nav-item nav-link" href="#">Our Services</a>
-					<a class="nav-item nav-link" href="#">Our Counselors</a>
-					<a class="nav-item nav-link" href="#">EAP</a>
-					<a class="nav-item nav-link" href="#">Workshops</a>
-					<a class="nav-item nav-link" href="#">FAQs</a>
-					<a class="nav-item nav-link" href="#">Contact Us</a>
-				</div>
-			</div>
-		</nav>
-	</header>
-
-	<!-- CONTACT FLOAT /////////////////////////////////////////////////////////////////////////////////// -->
-
-	<ul class="mfb-component--br mfb-slidein" data-mfb-toggle="hover">
-	  <li class="mfb-component__wrap">
-	    <a data-mfb-label="Hover or click to expand" class="mfb-component__button--main">
-	      <i style="line-height:56px;" class="mfb-component__main-icon--resting fa fa-plus text-white fa-2x" aria-hidden="true"></i>
-	      <i style="line-height:56px;" class="mfb-component__main-icon--active fa fa-times text-white fa-2x" aria-hidden="true"></i>
-	    </a>
-	    <ul class="mfb-component__list">
-				<li>
-					<a href="link.html" data-mfb-label="Give us a call" class="mfb-component__button--child">
-          				<i style="line-height:56px;" class="mfb-component__child-icon fa fa-phone fa-2x" aria-hidden="true"></i>
-        			</a>
-				</li>
-				<li>
-					<a href="link.html" data-mfb-label="Send us an email" class="mfb-component__button--child">
-          				<i style="line-height:56px;" class="mfb-component__child-icon fa fa-envelope fa-2x" aria-hidden="true"></i>
-        			</a>
-				</li>
-				<li>
-					<a href="#page-top" data-mfb-label="Back to top" class="mfb-component__button--child">
-          				<i style="line-height:56px;" class="mfb-component__child-icon fa fa-arrow-circle-up fa-2x" aria-hidden="true"></i>
-        			</a>
-				</li>
-	    </ul>
-	  </li>
-	</ul>
-
-	<!-- CAROUSEL HERO /////////////////////////////////////////////////////////////////////////////////// -->
-
-	<section class="jumbotron jumbotron-fluid hero text-left">
-		<div class="container-fluid">
-			<img src="/img/main_logo.svg" width="25%" height="20%" alt="company logo">
-		</div>
-	</section>
-
-	<!-- QUICK CARDS ///////////////////////////////////////////////////////////////////////////////////// -->
-
-	<div class="container text-white pb-5">
-		<div class="row">
-			<div class="col-sm-12 col-md-4 cards">
-				<div class="card">
-					<img class="card-img-top img-fluid" src="/img/couple_embrace.jpg" alt="Card image cap">
-					<div class="card-body bg-primary">
-						<h4 class="card-title">Our Therapy Services</h4>
-						<p class="card-text">We provide clinical therapy to individuals, couples, children, youth and families...</p>
-						<a href="#" class="card-link btn btn-secondary" role="button">Read More</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-12 col-md-4 cards">
-				<div class="card">
-					<img class="card-img-top img-fluid" src="/img/family_hands.jpg" alt="Card image cap">
-					<div class="card-body bg-primary">
-						<h4 class="card-title">Workshops & Training</h4>
-						<p class="card-text">Clannad offers a full range of workshops and training to the community. We deliver...</p>
-						<a href="#" class="card-link btn btn-secondary" role="button">Read More</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-12 col-md-4 cards">
-				<div class="card">
-					<img class="card-img-top img-fluid" src="/img/horse.jpg" alt="Card image cap">
-					<div class="card-body bg-primary">
-						<h4 class="card-title">Equine Assisted Psychotherapy (EAP)</h4>
-						<p class="card-text">Offering an alternative approach to other traditional forms of talk therapy...</p>
-						<a href="#" class="card-link btn btn-secondary" role="button">Read More</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- APPLY SECTION /////////////////////////////////////////////////////////////////////////////////// -->
-
-	<section class="text-center contact text-white" id="apply">
-		<div class="container">
-			<div class="quoteBg">
-				<blockquote class="blockquote">
-					<p>"I feel refreshed and excited… Super helpful information and tools that will change my approach with kids and families. This fits with who I want to be as a social worker."</p>
-					<footer class="blockquote-footer"> <cite title="Source Title">Workshop participant</cite></footer>
-				</blockquote>
-			</div>
-		</div>
-	</section>
-
-	<!-- EMPLOYEE SECTION //////////////////////////////////////////////////////////////////////////////// -->
-
-	<section id="team" class="text-center">
-		<div class="container">
-			<h1 class="text-left">Our Counselors</h1>
-			<hr>
-		</div>
-		<div class="container d-flex">
-			<div class="row">
-				<div class="p-2 col-lg-6">
-					<img src="/img/stephanie.jpg" alt="" class="img-fluid rounded-circle" width="50%">
-					<h3 class="title pt-2">Stephanie Townsend</h3>
-					<h5>- Counselor -</h5>
-					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non esse pariatur aliquam nulla suscipit expedita.</p>
-				</div>
-				<div class="p-2 col-lg-6">
-					<img src="/img/michelle.jpg" alt="" class="img-fluid rounded-circle" width="50%">
-					<h3 class="title pt-2">Michelle MacIssac</h3>
-					<h5>- Counselor -</h5>
-					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non esse pariatur aliquam nulla suscipit expedita.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- GSAP JS ///////////////////////////////////////////////////////////////////////////////////////// -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenLite.min.js" integrity="sha256-urKHuZ772q9CZZjbN5geWh0ObNvIL4INeQTSQkZC2/M=" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/CSSPlugin.min.js" integrity="sha256-DVfSynPZfzB2Mca3EebIt2UJmcQfeWPtUe0+Tghv4cc=" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/easing/EasePack.min.js" integrity="sha256-s+GIux/BR9VHE/ZEUljQnq/7vhsLnKMxxOtGjcDQE4w=" crossorigin="anonymous"></script>
-
-	<!-- <script>window.jQuery || document.write('<script src="js/libs/jquery-1.5.1.min.js">x3C/script>')</script> -->
-
-	<!-- BOOTSTRAP 4 JS & JQUERY - jquery and popper first /////////////////////////////////////////////// -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<!-- includes both bootstrap js and popper -->
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha256-uz0BcnPtSHZ02XZthAHPRYIoWWrcwMOmAk9ErnFQkNs=" crossorigin="anonymous"></script> -->
-	<script src="/js/scripts.js"></script>
+	<!-- Header/Nav Section -->
+	<?php include('pages/header.php'); ?>
+	<!-- Material Float Button -->
+	<?php include('pages/mfb.php'); ?>
+	<!-- Hero Section -->
+	<?php include('pages/hero.php'); ?>
+	<!-- Card Section -->
+	<?php include('pages/cards.php'); ?>
+	<!-- Quote Section -->
+	<?php include('pages/quote.php'); ?>
+	<!-- Logo Section -->
+	<?php include('pages/logo.php'); ?>
+	<!-- Footer Section -->
+	<?php include('pages/footer.php'); ?>
+	<!-- Scripts -->
+	<?php include('pages/scripts.php'); ?>
 
 </body>
 

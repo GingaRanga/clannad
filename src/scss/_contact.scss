@@ -2,8 +2,6 @@
 	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('/img/couple_coffee.jpg');
 	@include heroImg();
 	background-attachment: fixed;
-	height: 45vh;
-	padding: 50px 0;
 	.quoteBg{
 		background: rgba(0,0,0,0.5);
 		padding: 1rem 0;

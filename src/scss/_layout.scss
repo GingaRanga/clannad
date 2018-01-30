@@ -16,6 +16,12 @@
 	}
 };
 
+@include media-breakpoint-down(sm) {
+	.hero, .contact{
+		background-attachment: scroll;
+	}
+}
+
 section{
-	padding-top: 50px;
+	padding: 50px 0 30px;
 }
