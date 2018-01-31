@@ -5,10 +5,14 @@
 #A7D2CB - clean
 */
 
+html, body{
+	overflow-x: hidden;
+}
+
 @include media-breakpoint-up(sm) {
 	body{
 		/* background: red; */
-		padding-top: 130px;
+		padding-top: 56px; /* new style for header-test.php */
 		background: $light;
 	}
 	.mfb-component--br{

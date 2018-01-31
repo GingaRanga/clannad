@@ -1,12 +1,10 @@
 $(document).ready(function(){
+	'use strict'
 
-	//MOBILE NAV COLLAPSE ON CLICK
-
-	$('.navbar-nav>a').on('click', function(){
-
-		$('.navbar-collapse').collapse('hide');
-
-	});
+	// Script for off canvas toggler
+	$('[data-toggle="offcanvas"]').on('click', function () {
+    $('.offcanvas-collapse').toggleClass('open')
+  })
 
 	//SLICK CAROUSEL 1
 
