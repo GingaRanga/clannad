@@ -16,7 +16,7 @@
       <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-item nav-link" href="#">Services</a>
-          <a class="nav-item nav-link" href="#">Counselors</a>
+          <a class="nav-item nav-link" href="#">Counsellors</a>
           <a class="nav-item nav-link" href="#">EAP</a>
           <a class="nav-item nav-link" href="#">Workshops</a>
           <a class="nav-item nav-link" href="#">FAQs</a>

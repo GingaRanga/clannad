@@ -6,30 +6,30 @@
         <div class="col-sm-12 col-md-4 cards">
           <div class="card">
             <img class="card-img-top img-fluid" src="/img/couple_embrace.jpg" alt="Card image cap">
-            <div class="card-body bg-primary">
-              <h4 class="card-title">Our Therapy Services</h4>
+            <div class="card-body bg-primary pb-4">
+              <h3 class="card-title">Our Therapy Services</h3>
               <p class="card-text">We provide clinical therapy to individuals, couples, children, youth and families...</p>
-              <a href="#" class="card-link btn btn-secondary" role="button">Read More</a>
+              <a href="/pages/services.php" class="card-link btn btn-warning text-white" role="button">Read More</a>
             </div>
           </div>
         </div>
         <div class="col-sm-12 col-md-4 cards">
           <div class="card">
-            <img class="card-img-top img-fluid" src="/img/family_hands.jpg" alt="Card image cap">
-            <div class="card-body bg-primary">
-              <h4 class="card-title">Workshops & Training</h4>
+            <img class="card-img-top img-fluid" src="/img/hands_sappling.jpg" alt="Card image cap">
+            <div class="card-body bg-primary pb-4">
+              <h3 class="card-title">Workshops & Training</h3>
               <p class="card-text">Clannad offers a full range of workshops and training to the community. We deliver...</p>
-              <a href="#" class="card-link btn btn-secondary" role="button">Read More</a>
+              <a href="/pages/workshops.php" class="card-link btn btn-warning text-white" role="button">Read More</a>
             </div>
           </div>
         </div>
         <div class="col-sm-12 col-md-4 cards">
           <div class="card">
             <img class="card-img-top img-fluid" src="/img/horse.jpg" alt="Card image cap">
-            <div class="card-body bg-primary">
-              <h4 class="card-title">Equine Assisted Psychotherapy (EAP)</h4>
+            <div class="card-body bg-primary pb-3">
+              <h3 class="card-title">Equine Assisted Psychotherapy (EAP)</h3>
               <p class="card-text">Offering an alternative approach to other traditional forms of talk therapy...</p>
-              <a href="#" class="card-link btn btn-secondary" role="button">Read More</a>
+              <a href="/pages/eap.php" class="card-link btn btn-warning text-white" role="button">Read More</a>
             </div>
           </div>
         </div>

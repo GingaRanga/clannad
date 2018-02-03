@@ -1,64 +1,57 @@
   <!-- FOOTER SECTION ////////////////////////////////////////////////////////////////////////////////// -->
 
-  <section id="contact" class="footer text-light">
+  <section id="contact" class="footer text-white">
     <footer>
-      <!-- 45.077353,-64.493216 LONG AND LAT FOR ADDRESS-->
-      <iframe
-        width="100%"
-        height="450"
-        frameborder="0"
-        style="border:0"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.4383848517596!2d-64.49523298489268!3d45.07690266722399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5857197aac4d19%3A0xd1ac22941e90a3b9!2sSafeguard+Property+Management+%26+Services+Inc.!5e0!3m2!1sen!2sca!4v1516721978730"
-        allowfullscreen>
-      </iframe>
+      <!-- 45.078367,-64.502903 LONG AND LAT FOR ADDRESS-->
+      <iframe width="100%" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=535%20Main%20Street%2C%20Kentville%2C%20NS&key=AIzaSyDNGDXKGckesbn0VQftZ_Nr5HlXoIuGzto" allowfullscreen></iframe>
       <div class="main-footer">
         <div class="container">
           <div class="row p-2">
             <div class="col-lg-4">
-              <div class="pb-3">
-                <h5>Address:</h5>
+              <div>
+                <h3 class="lead text-secondary">Address:</h3>
                 <p>535 Main Street&#44; Kentville&#44; NS&#44; B4N 1L4</p>
               </div>
-              <div class="pb-3">
-                <h5>Phone:</h5>
-                <p>Regular Phone&#58; <a href="tel:+1902XXXXXXX">&#40;902&#41; XXX&#45;XXXX</a></p>
-                <p>Fax&#58; <a href="tel:+1902XXXXXXX">1&#45;902&#45;XXX&#45;XXXX</a></p>
+              <div>
+                <h3 class="lead text-secondary">Contact:</h3>
+                <p>Phone&#58; <a href="tel:+19023653363">&#40;902&#41; 365&#45;3363</a></p>
+                <p>Fax&#58; <a href="tel:+19023652630">1&#45;902&#45;365&#45;2630</a></p>
               </div>
-              <div class="pb-3">
-                <h5>Email:</h5>
+              <div>
+                <h3 class="lead text-secondary">Email:</h3>
                 <a href="mailto:info@clannad.ca">info@clannad.ca</a> <br><br>
               </div>
-              <div class="pb-3">
-                <h5>Office Hours:</h5>
-                <p>Monday &#45; Friday&#58; 9:00am &#45; 4:30pm</p>
+              <div>
+                <h3 class="lead text-secondary">Office Hours:</h3>
+                <p>Monday &#45; Friday&#58; 8:30am &#45; 4:30pm</p>
                 <p>Saturday &#45; Sunday&#58; Closed</p>
               </div>
-              <div class="pb-3">
-                <h5>After Hours:</h5>
-                <p>We can be reached 24/7 by phone</p>
-                <p>Toll Free&#58; <a href="tel:+1XXXXXXXXXXX">1&#45;800&#45;XXX&#45;XXXX</a></p>
+              <div>
+                <h3 class="lead text-secondary">Social Links:</h3>
+                <a class="nav-link nav-facebook d-inline" href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                <a class="nav-link nav-insta d-inline" href="#"><i class="fa fa-instagram fa-lg"></i></a>
               </div>
             </div>
-            <hr class="d-none style-one">
+            <hr class="d-sm-none border" width="90%">
             <div class="col-lg-4">
-              <h5>Company Contacts</h5>
-              <div class="pb-3">
-                <p class="font-weight-bold">Title</p>
+              <h3 class="lead text-secondary">Company Contacts</h3>
+              <div>
                 <p>Stephanie Townsend</p>
-                <p><span class="font-italic">Email&#58;</span> <a href="mailto:example@clannad.ca">example@clannad.ca</a></p>
+                <p class="text-muted">Counsellor</p>
+                <p><span class="font-italic">Email&#58;</span> <a href="mailto:stownsend@clannad.ca">stownsend@clannad.ca</a></p>
               </div>
-              <div class="pb-3">
-                <p class="font-weight-bold">Title</p>
+              <div>
                 <p>Michelle MacIssac</p>
-                <p><span class="font-italic">Email&#58;</span> <a href="mailto:example@clannad.ca">example@clannad.ca</a></p>
+                <p class="text-muted">Counsellor</p>
+                <p><span class="font-italic">Email&#58;</span> <a href="mailto:mmacisaac@clannad.ca">mmacisaac@clannad.ca</a></p>
               </div>
               <img src="/img/main_logo.svg" class="img-fluid float-left" width="60%" alt="company logo">
             </div>
-            <hr class="d-none style-one">
+            <hr class="d-sm-none border" width="90%">
             <div class="col-lg-4">
               <form name="contactForm" method="post" action="<?php echo htmlspecialchars( $_SERVER["PHP_SELF"] ); ?>">
                 <fieldset>
-                  <legend><h5>Leave us a message</h5></legend>
+                  <legend><h3 class="lead text-secondary">Leave us a message</h3></legend>
                   <div class="form-group">
                     <label for="formName">Full name</label>
                     <input name="formName" type="name" class="form-control" id="formName" aria-describedby="nameHelp" placeholder="Full Name" required>

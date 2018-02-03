@@ -1,6 +1,6 @@
   <!-- QUOTE SECTION /////////////////////////////////////////////////////////////////////////////////// -->
 
-  <section class="text-center contact text-light">
+  <section class="text-center quote text-light">
     <div class="container">
       <div class="quoteBg">
         <blockquote class="blockquote">

@@ -1,6 +1,27 @@
 .hero{
 	background: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,0.2)), url('/img/feet_in_hands.jpg');
 	@include heroImg();
-	height: 95vh;
+	height: 100vh;
 	background-attachment: fixed;
 }
+
+.hero-small{
+	background: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,0.2)), url('/img/feet_in_hands.jpg');
+	@include heroImg();
+	height: 50vh;
+	background-attachment: scroll;
+}
+
+@include media-breakpoint-down(sm) {
+	.hero-small, .quote{
+		background-attachment: scroll;
+		background: $brand-primary;
+	}
+	.hero{
+		background-attachment: scroll;
+	}
+	.hero img, .hero-small img{
+		width: 100%;
+		padding-top: 100px;
+	}
+};

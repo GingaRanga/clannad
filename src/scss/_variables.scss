@@ -3,20 +3,26 @@
 #94618E - grape
 #49274A - eggplant
 #A7D2CB - clean
+#f8f9fa - light
 */
 
 $brand-primary:	rgba(164,149,146,1);
 $brand-dark:	rgba(73,39,74,1);
 $brand-light:	rgba(148,97,142,1);
 $brand-accent:	rgba(167,210,203,1);
+$brand-white: #f8f9fa;
 
 /* BOOTSTRAP Custom */
 $theme-colors: (
   "primary": $brand-primary,
   "dark": $brand-dark,
   "warning": $brand-accent,
-  "secondary": $brand-light
+  "secondary": $brand-light,
+  "light":      $brand-white
 );
+
+$body-bg:                   $brand-white;
+$body-color:                $brand-dark;
 
 $btn-border-radius:           none;
 $btn-border-radius-lg:        none;

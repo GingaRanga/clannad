@@ -12,7 +12,7 @@
 	<!-- Card Section -->
 	<?php include('pages/cards.php'); ?>
 	<!-- Quote Section -->
-	<?php include('pages/quote.php'); ?>
+	<?php include('pages/mission.php'); ?>
 	<!-- Logo Section -->
 	<?php include('pages/logo.php'); ?>
 	<!-- Footer Section -->

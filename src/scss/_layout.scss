@@ -24,8 +24,16 @@ html, body{
 	.hero, .contact{
 		background-attachment: scroll;
 	}
-}
+};
 
 section{
 	padding: 50px 0 30px;
+}
+
+.nav-facebook:hover {
+  color: #3b5998;
+}
+
+.nav-insta:hover {
+  color: #e1306c;
 }
