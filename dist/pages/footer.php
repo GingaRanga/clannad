@@ -32,7 +32,7 @@
                 <a class="nav-link nav-insta d-inline" href="#"><i class="fa fa-instagram fa-lg"></i></a>
               </div>
             </div>
-            <hr class="d-sm-none border" width="90%">
+            <hr class="d-sm-none border" width="80%">
             <div class="col-lg-4">
               <h3 class="lead text-secondary">Company Contacts</h3>
               <div>
@@ -47,7 +47,7 @@
               </div>
               <img src="/img/main_logo.svg" class="img-fluid float-left" width="60%" alt="company logo">
             </div>
-            <hr class="d-sm-none border" width="90%">
+            <hr class="d-sm-none border" width="80%">
             <div class="col-lg-4">
               <form name="contactForm" method="post" action="<?php echo htmlspecialchars( $_SERVER["PHP_SELF"] ); ?>">
                 <fieldset>

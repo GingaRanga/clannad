@@ -10,7 +10,7 @@
 	<!-- Hero Section -->
 	<?php include('hero-small.php'); ?>
   <!-- Services Section -->
-	<?php include('#'); ?>
+	<?php include('eap-section.php'); ?>
 	<!-- Footer Section -->
 	<?php include('footer.php'); ?>
 	<!-- Scripts -->

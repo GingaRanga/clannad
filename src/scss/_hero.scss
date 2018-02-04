@@ -18,6 +18,9 @@
 		background: $brand-primary;
 	}
 	.hero{
+		background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('/img/feet_in_hands.jpg');
+		@include heroImg();
+		height: 100vh;
 		background-attachment: scroll;
 	}
 	.hero img, .hero-small img{
