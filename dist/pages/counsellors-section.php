@@ -4,7 +4,7 @@
     <div class="container">
       <div class="wrap">
         <h1>Our Counsellors</h1>
-        <hr>
+        <hr class="mb-5">
         <div class="row">
           <div class="p-3 col-lg-6">
             <img src="/img/stephanie.jpg" alt="" class="img-fluid rounded-circle" width="50%">
