@@ -12,7 +12,7 @@
       				<small class="text-muted d-block pt-2">The Clannad Logo: Celtic Tree of Life</small>
             </div>
     			</div>
-    			<div class="col-lg-4 bg-primary p-3 text-light">
+    			<div class="col-lg-4 bg-primary p-3 text-light info-wrap">
     				<p class="lead">Our counselling practice is based on attachment principles and focuses on healthy relationships across the life span. Our name and logo represent our heritage and values.</p>
             <hr class="d-sm-none border" width="50%">
             <p class="lead"><em>Clannad</em> is the Irish Gaelic word for "Family."</p>

@@ -7,7 +7,7 @@
 				<hr class="mb-5">
 				<div class="row">
 					<div class="col-lg-6">
-						<img src="/img/horse_full.jpg" class="img-fluid mb-2" alt="Horse and equine therapy">
+						<img src="/img/horse_full.jpg" class="img-fluid mb-2 img-thumbnail" alt="Horse and equine therapy">
 					</div>
 					<div class="col-lg-6">
 						<h3>What is EAP?</h3>
@@ -23,7 +23,7 @@
 		<div class="container">
 			<h2 class="text-dark">During an EAP Session</h2>
 			<hr>
-			<p class="lead text-dark mb-5">During an EAP session, you will see clinical staff and a horse handler who have all been trained in EAP and Equine Assisted Learning (EAL).</p>
+			<p class="lead text-light mb-5">During an EAP session, you will see clinical staff and a horse handler who have all been trained in EAP and Equine Assisted Learning (EAL).</p>
 			<div class="row">
 				<div class="col-lg-6 pt-3">
 					<h3 class="text-dark">How it Works</h3>
@@ -33,7 +33,7 @@
 				</div>
 				<div class="col-lg-6 pt-3">
 					<ul class="text-dark list-group list-group-flush">
-						<h3 class="text-dark">Some of the benefits that we see with EAP are:</h3>
+						<h4 class="text-dark">Some of the benefits that we see with EAP are:</h4>
 					  <li class="list-group-item list-group-item-action">Improved communication between couples and families</li>
 					  <li class="list-group-item list-group-item-action">Feeling more connected with others</li>
 					  <li class="list-group-item list-group-item-action">A greater understanding of the roles we play in teams/family units</li>

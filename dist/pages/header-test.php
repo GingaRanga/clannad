@@ -41,6 +41,6 @@
       <a class="nav-link" href="tel:+19023653363"><i class="fa fa-phone mr-1 fa-lg"></i> 902-365-3363</a>
       <a class="nav-link" href="#"><i class="fa fa-clock-o mr-1 fa-lg"></i> Mon &#45; Fri 8&#58;30am to 4&#58;30pm</a>
       <a class="nav-link" href="mailto:info@clannad.ca"><i class="fa fa-phone mr-1 fa-lg"></i> info&#64;clannad.ca</a>
-      <a class="nav-link btn btn-warning text-white" role="button" href="#">Book a consult</a>
+      <a class="nav-link btn btn-warning text-white disabled" role="button" href="#">Book a consult</a>
     </nav>
   </div>
