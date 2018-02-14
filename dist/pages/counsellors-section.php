@@ -7,7 +7,12 @@
         <hr class="mb-5">
         <div class="row">
           <div class="p-3 col-lg-6">
-            <img src="/img/stephanie.jpg" alt="" class="img-fluid rounded-circle" width="50%">
+            <div class="profile-wrap">
+              <img src="/img/stephanie.jpg" alt="stephanie townsend profile" class="img-fluid rounded-circle" width="50%">
+              <div class="overlay">
+                <a href="https://www.linkedin.com/in/stephanie-townsend-8bb12091/" class="icon nav-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              </div>
+            </div>
             <h3 class="pt-2">Stephanie Townsend</h3>
             <h5 class="text-muted">- Counsellor -</h5>
             <div class="card card-body">
@@ -25,7 +30,12 @@
             </div>
           </div>
           <div class="p-3 col-lg-6">
-            <img src="/img/michelle.jpg" alt="" class="img-fluid rounded-circle" width="50%">
+            <div class="profile-wrap">
+              <img src="/img/michelle.jpg" alt="michelle macisaac profile" class="img-fluid rounded-circle" width="50%">
+              <div class="overlay">
+                <a href="https://www.linkedin.com/in/michelle-macisaac-b40785144/" class="icon nav-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              </div>
+            </div>
             <h3 class="pt-2">Michelle MacIssac <small>MSW, RSW</small></h3>
             <h5 class="text-muted">- Counsellor -</h5>
             <div class="card card-body">
