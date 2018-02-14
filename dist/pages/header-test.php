@@ -20,9 +20,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/pages/workshops.php">Workshops</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="/pages/faqs.php">FAQs</a>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link" href="#contact">Contact</a>
         </li>
@@ -36,11 +36,11 @@
 
   <div class="nav-scroller bg-white box-shadow d-none d-sm-block">
     <nav class="nav nav-underline justify-content-end">
-      <a class="nav-link nav-facebook" href="#"><i class="fa fa-facebook fa-lg"></i></a>
-      <a class="nav-link nav-insta" href="#"><i class="fa fa-instagram fa-lg"></i></a>
+      <!-- <a class="nav-link nav-facebook" href="#"><i class="fa fa-facebook fa-lg"></i></a>
+      <a class="nav-link nav-insta" href="#"><i class="fa fa-instagram fa-lg"></i></a> -->
       <a class="nav-link" href="tel:+19023653363"><i class="fa fa-phone mr-1 fa-lg"></i> 902-365-3363</a>
       <a class="nav-link" href="#"><i class="fa fa-clock-o mr-1 fa-lg"></i> Mon &#45; Fri 8&#58;30am to 4&#58;30pm</a>
-      <a class="nav-link" href="mailto:info@clannad.ca"><i class="fa fa-phone mr-1 fa-lg"></i> info&#64;clannad.ca</a>
-      <a class="nav-link btn btn-warning text-white disabled" role="button" href="#">Book a consult</a>
+      <a class="nav-link" href="mailto:info@clannad.ca"><i class="fa fa-envelope mr-1 fa-lg"></i> info&#64;clannad.ca</a>
+      <!-- <a class="nav-link btn btn-warning text-white disabled" role="button" href="#">Book a consult</a> -->
     </nav>
   </div>

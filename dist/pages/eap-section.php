@@ -34,11 +34,11 @@
 				<div class="col-lg-6 pt-3">
 					<ul class="text-dark list-group list-group-flush">
 						<h4 class="text-dark">Some of the benefits that we see with EAP are:</h4>
-					  <li class="list-group-item list-group-item-action">Improved communication between couples and families</li>
-					  <li class="list-group-item list-group-item-action">Feeling more connected with others</li>
-					  <li class="list-group-item list-group-item-action">A greater understanding of the roles we play in teams/family units</li>
-					  <li class="list-group-item list-group-item-action">Recognizing patterns in relationships that we can then choose to change</li>
-					  <li class="list-group-item list-group-item-action">Research shows a decrease in symptoms associated with mental health concerns such as anxiety and depression - particularly when EAP is practiced within a couple or family unit. </li>
+					  <li class="list-group-item">Improved communication between couples and families</li>
+					  <li class="list-group-item">Feeling more connected with others</li>
+					  <li class="list-group-item">A greater understanding of the roles we play in teams/family units</li>
+					  <li class="list-group-item">Recognizing patterns in relationships that we can then choose to change</li>
+					  <li class="list-group-item">Research shows a decrease in symptoms associated with mental health concerns such as anxiety and depression - particularly when EAP is practiced within a couple or family unit. </li>
 					</ul>
 				</div>
 			</div>

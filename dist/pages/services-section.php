@@ -28,6 +28,10 @@
       </div>
     </div>
   </section>
+
+  <!-- Quote3 Section -->
+  <?php include('quote3.php'); ?>
+
   <section class="bg-primary text-light">
     <div class="container">
       <div class="wrap">
@@ -36,17 +40,17 @@
         <p class="lead mb-5">The service philosophy of Clannad Counselling & Consulting is based on a foundation of respect and confidentiality. When you are involved with Clannad, you have certain rights.</p>
         <div class="row">
           <div class="col-lg-6 pt-3">
-  					<ul class="text-dark list-group list-group-flush">
+  					<ul class="text-dark list-group list-group-flush lead">
   						<h4 class="text-dark">These rights include:</h4>
-  					  <li class="list-group-item list-group-item-action">The right to participate in planning the services you want;</li>
-  					  <li class="list-group-item list-group-item-action">The right to be informed of the risks and benefits of these services;</li>
-  					  <li class="list-group-item list-group-item-action">The right to refuse service from Clannad;</li>
-  					  <li class="list-group-item list-group-item-action">The right to be informed of other approaches or alternatives that may exist to your service plan;</li>
-  					  <li class="list-group-item list-group-item-action">The right to consult with another professional about the service you are receiving, or to request a referral to another service provider;</li>
-              <li class="list-group-item list-group-item-action">The right to know your service provider's values and what it may be like to receive service from this person and from Clannad;</li>
-              <li class="list-group-item list-group-item-action">The right not to be discriminated against based on gender, sexual orientation, cultural, linguistic, racial, age, disability and religious backgrounds;</li>
-              <li class="list-group-item list-group-item-action">The right to develop and realize your own goals based on your strengths and abilities;</li>
-              <li class="list-group-item list-group-item-action">The right to feel safe and not to be harmed in any way.</li>
+  					  <li class="list-group-item">The right to participate in planning the services you want;</li>
+  					  <li class="list-group-item">The right to be informed of the risks and benefits of these services;</li>
+  					  <li class="list-group-item">The right to refuse service from Clannad;</li>
+  					  <li class="list-group-item">The right to be informed of other approaches or alternatives that may exist to your service plan;</li>
+  					  <li class="list-group-item">The right to consult with another professional about the service you are receiving, or to request a referral to another service provider;</li>
+              <li class="list-group-item">The right to know your service provider's values and what it may be like to receive service from this person and from Clannad;</li>
+              <li class="list-group-item">The right not to be discriminated against based on gender, sexual orientation, cultural, linguistic, racial, age, disability and religious backgrounds;</li>
+              <li class="list-group-item">The right to develop and realize your own goals based on your strengths and abilities;</li>
+              <li class="list-group-item">The right to feel safe and not to be harmed in any way.</li>
   					</ul>
   				</div>
           <div class="col-lg-6 pt-3">

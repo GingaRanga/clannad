@@ -15,8 +15,8 @@
 	<?php include('pages/mission.php'); ?>
 	<!-- Logo Section -->
 	<?php include('pages/logo.php'); ?>
-	<!-- Respect Section -->
-	<?php include('pages/respect.php'); ?>
+	<!-- Quote2 Section -->
+	<?php include('pages/quote2.php'); ?>
 	<!-- Footer Section -->
 	<?php include('pages/footer.php'); ?>
 	<!-- Scripts -->

@@ -26,11 +26,11 @@
                 <p>Monday &#45; Friday&#58; 8:30am &#45; 4:30pm</p>
                 <p>Saturday &#45; Sunday&#58; Closed</p>
               </div>
-              <div>
+              <!-- <div>
                 <h3 class="lead text-secondary">Social Links:</h3>
                 <a class="nav-link nav-facebook d-inline" href="#"><i class="fa fa-facebook fa-lg"></i></a>
                 <a class="nav-link nav-insta d-inline" href="#"><i class="fa fa-instagram fa-lg"></i></a>
-              </div>
+              </div> -->
             </div>
             <hr class="d-sm-none border" width="80%">
             <div class="col-lg-4">
@@ -38,12 +38,14 @@
               <div>
                 <p>Stephanie Townsend</p>
                 <p class="text-muted">Counsellor</p>
-                <p><span class="font-italic">Email&#58;</span> <a href="mailto:stownsend@clannad.ca">stownsend@clannad.ca</a></p>
+                <p><a class="nav-link nav-linkedin" href="https://www.linkedin.com/in/stephanie-townsend-8bb12091/"><i class="fa fa-linkedin fa-lg"></i></a></p>
+                <!-- <p><span class="font-italic">Email&#58;</span> <a href="mailto:stownsend@clannad.ca">stownsend@clannad.ca</a></p> -->
               </div>
               <div>
                 <p>Michelle MacIssac</p>
                 <p class="text-muted">Counsellor</p>
-                <p><span class="font-italic">Email&#58;</span> <a href="mailto:mmacisaac@clannad.ca">mmacisaac@clannad.ca</a></p>
+                <p><a class="nav-link nav-linkedin" href="https://www.linkedin.com/in/michelle-macisaac-b40785144/"><i class="fa fa-linkedin fa-lg"></i></a></p>
+                <!-- <p><span class="font-italic">Email&#58;</span> <a href="mailto:mmacisaac@clannad.ca">mmacisaac@clannad.ca</a></p> -->
               </div>
               <img src="/img/main_logo.svg" class="img-fluid float-left" width="60%" alt="company logo">
             </div>

@@ -36,17 +36,17 @@
             </div>
             <div class="collapse" id="collapseExample2">
               <div class="card card-body">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item list-group-item-action">children with exceptionalities and their families</li>
-                  <li class="list-group-item list-group-item-action">multi-stressed families</li>
-                  <li class="list-group-item list-group-item-action">military members and veterans </li>
-                  <li class="list-group-item list-group-item-action">couples facing tremendous conflict, loss and infertility</li>
-                  <li class="list-group-item list-group-item-action">parents working to find a way to connect with their children</li>
-                  <li class="list-group-item list-group-item-action">families coping with chronic and sometimes life-threatening illness</li>
-                  <li class="list-group-item list-group-item-action">the grieving</li>
-                  <li class="list-group-item list-group-item-action">survivors of childhood abuse</li>
-                  <li class="list-group-item list-group-item-action">people battling addiction</li>
-                  <li class="list-group-item list-group-item-action">and those searching for peace from thoughts of suicide</li>
+                <ul>
+                  <li>children with exceptionalities and their families</li>
+                  <li>multi-stressed families</li>
+                  <li>military members and veterans </li>
+                  <li>couples facing tremendous conflict, loss and infertility</li>
+                  <li>parents working to find a way to connect with their children</li>
+                  <li>families coping with chronic and sometimes life-threatening illness</li>
+                  <li>the grieving</li>
+                  <li>survivors of childhood abuse</li>
+                  <li>people battling addiction</li>
+                  <li>and those searching for peace from thoughts of suicide</li>
                 </ul>
                 <p class="pt-2">My experience has included work as an Early Interventionist, service as a Social Work Officer in the Canadian Armed Forces, Pediatric Social Worker with the IWK Health Centre, and a Child and Family Therapist with New Directions Parenting Centre in Manitoba and Greenwood Military Family Resource Centre.</p>
                 <p>I use a variety of therapeutic approaches rooted in attachment theory. I am trained in Cognitive Behavioural Therapy, EMDR, Emotion Focused Therapy, Mindfulness, Family Systems, Circle of Security Parenting. I also have training in play based therapies including Theraplay. My areas of specialization include trauma (developmental/attachment and complex trauma/ PTSD), parenting difficulties/disruptive behaviour, couple therapy, treatment of anxiety, adjustment, and depression (including Post-Partum), and exceptionalities including ADHD and Autism.</p>
