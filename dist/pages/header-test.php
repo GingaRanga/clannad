@@ -5,20 +5,20 @@
 
     <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link <?php echo ($page == "home" ? "active" : "")?>" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pages/services.php">Services</a>
+          <a class="nav-link <?php echo ($page == "services" ? "active" : "")?>" href="/pages/services.php">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pages/counsellors.php">Counsellors</a>
+          <a class="nav-link <?php echo ($page == "counsellors" ? "active" : "")?>" href="/pages/counsellors.php">Counsellors</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pages/eap.php">EAP</a>
+          <a class="nav-link <?php echo ($page == "eap" ? "active" : "")?>" href="/pages/eap.php">EAP</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pages/workshops.php">Workshops</a>
+          <a class="nav-link <?php echo ($page == "workshops" ? "active" : "")?>" href="/pages/workshops.php">Workshops</a>
         </li>
         <!-- <li class="nav-item">
           <a class="nav-link" href="/pages/faqs.php">FAQs</a>

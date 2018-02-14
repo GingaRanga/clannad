@@ -1,3 +1,5 @@
+<?php $page = "home"; ?>
+
 <!-- Head Section -->
 <?php include('pages/head.php'); ?>
 

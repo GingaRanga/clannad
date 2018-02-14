@@ -1,3 +1,5 @@
+<?php $page = "counsellors"; ?>
+
 <!-- Head Section -->
 <?php include('head.php'); ?>
 

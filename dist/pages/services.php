@@ -1,3 +1,5 @@
+<?php $page = "services"; ?>
+
 <!-- Head Section -->
 <?php include('head.php'); ?>
 

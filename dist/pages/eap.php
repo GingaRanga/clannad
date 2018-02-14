@@ -1,3 +1,5 @@
+<?php $page = "eap"; ?>
+
 <!-- Head Section -->
 <?php include('head.php'); ?>
 

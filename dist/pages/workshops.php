@@ -1,3 +1,5 @@
+<?php $page = "workshops"; ?>
+
 <!-- Head Section -->
 <?php include('head.php'); ?>
 
