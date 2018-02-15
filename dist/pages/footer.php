@@ -36,14 +36,14 @@
             <div class="col-lg-4">
               <h3 class="lead text-secondary">Company Contacts</h3>
               <div>
-                <p>Stephanie Townsend <br>
+                <p>Stephanie Townsend <small class="text-muted">MA, RCT-C</small> <br>
                 <span class="text-muted">- Counsellor -</span>
                 <a class="nav-link nav-linkedin" href="https://www.linkedin.com/in/stephanie-townsend-8bb12091/"><i class="fa fa-linkedin-square fa-2x"></i></a></p>
                 <!-- <p><span class="font-italic">Email&#58;</span> <a href="mailto:stownsend@clannad.ca">stownsend@clannad.ca</a></p> -->
               </div>
               <div>
-                <p>Michelle MacIssac <br>
-                <span class="text-muted">Counsellor</span>
+                <p>Michelle MacIsaac <small class="text-muted">MSW, RSW</small> <br>
+                <span class="text-muted">- Counsellor -</span>
                 <a class="nav-link nav-linkedin" href="https://www.linkedin.com/in/michelle-macisaac-b40785144/"><i class="fa fa-linkedin-square fa-2x"></i></a></p>
                 <!-- <p><span class="font-italic">Email&#58;</span> <a href="mailto:mmacisaac@clannad.ca">mmacisaac@clannad.ca</a></p> -->
               </div>
