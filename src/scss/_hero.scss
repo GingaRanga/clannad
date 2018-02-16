@@ -12,6 +12,19 @@
 	background-attachment: scroll;
 }
 
+#main-logo{
+	/* ScrollMagic styles */
+	opacity: 0;
+	/* transform: translateY(50px); */
+	transition: all 0.5s ease-in-out;
+}
+
+#main-logo.fade-in{
+	/* ScrollMagic styles */
+	opacity: 1;
+	/* transform: translateY(0); */
+}
+
 @include media-breakpoint-down(sm) {
 	.hero-small, .quote{
 		background-attachment: scroll;
