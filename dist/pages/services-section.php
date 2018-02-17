@@ -13,7 +13,7 @@
           </div>
           <div class="col-lg-6 bg-secondary text-light treatment-wrap p-3">
             <h3>Treatment Options</h3>
-            <p>We work from a trauma informed, relationship based treatment model. We can provide:</p>
+            <p>We work from a trauma informed relationship based treatment model. We can provide:</p>
             <ul>
               <li>Cognitive Behavioural Therapy (CBT)</li>
               <li>Emotion Focused Therapy (EFT)</li>

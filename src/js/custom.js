@@ -61,13 +61,13 @@ $(document).ready(function(){
 		reverse: false // animation happens once and not triggered in reverse scroll
 	})
 	.setClassToggle('#main-logo', 'fade-in') // this allows us to change a class in 'classtochange', 'classtochangeto'
-	.addIndicators({
-		name: 'fade scene',
-		colorTrigger: 'yellow',
-		// indent: 200,
-		colorStart: 'pink',
-		colorEnd: 'red'
-	}) // requires addindicators plugin. inside curly braces are indicator options
+	// .addIndicators({
+	// 	name: 'fade scene',
+	// 	colorTrigger: 'yellow',
+	// 	// indent: 200,
+	// 	colorStart: 'pink',
+	// 	colorEnd: 'red'
+	// }) // requires addindicators plugin. inside curly braces are indicator options
 	.addTo(controller); // adds scene to controller
 
 	// Build scene2 for animation
@@ -80,13 +80,13 @@ $(document).ready(function(){
 		// reverse: false // animation happens once and not triggered in reverse scroll
 	})
 	.setClassToggle('.card', 'fade-in') // this allows us to change a class in 'classtochange', 'classtochangeto'
-	.addIndicators({
-		name: 'fade scene 2',
-		colorTrigger: 'yellow',
-		// indent: 200,
-		colorStart: 'pink',
-		colorEnd: 'red'
-	}) // requires addindicators plugin. inside curly braces are indicator options
+	// .addIndicators({
+	// 	name: 'fade scene 2',
+	// 	colorTrigger: 'yellow',
+	// 	// indent: 200,
+	// 	colorStart: 'pink',
+	// 	colorEnd: 'red'
+	// }) // requires addindicators plugin. inside curly braces are indicator options
 	.addTo(controller); // adds scene to controller
 
 	// Build scene3 for animation
@@ -99,13 +99,13 @@ $(document).ready(function(){
 		// reverse: false // animation happens once and not triggered in reverse scroll
 	})
 	.setClassToggle('.mission', 'fade-in') // this allows us to change a class in 'classtochange', 'classtochangeto'
-	.addIndicators({
-		name: 'fade scene 3',
-		colorTrigger: 'yellow',
-		// indent: 200,
-		colorStart: 'pink',
-		colorEnd: 'red'
-	}) // requires addindicators plugin. inside curly braces are indicator options
+	// .addIndicators({
+	// 	name: 'fade scene 3',
+	// 	colorTrigger: 'yellow',
+	// 	// indent: 200,
+	// 	colorStart: 'pink',
+	// 	colorEnd: 'red'
+	// }) // requires addindicators plugin. inside curly braces are indicator options
 	.addTo(controller); // adds scene to controller
 
 });

@@ -17,7 +17,7 @@
             <h5 class="text-muted">- Counsellor -</h5>
             <div class="card card-body">
               <p>Connecting through relationship and supporting individuals in their own healing journey has always been a passion of mine. My work has lead me from community development work to grass roots community based counselling. The common thread has been about building relationships. Recognizing the importance...</p>
-              <p><button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              <p><button class="btn btn-warning text-dark" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
               Read More</button>
               </p>
             </div>
@@ -39,8 +39,8 @@
             <h3 class="pt-2">Michelle MacIsaac <small>MSW, RSW</small></h3>
             <h5 class="text-muted">- Counsellor -</h5>
             <div class="card card-body">
-              <p>I began my practice in 2000 with at-risk parents and children, not knowing the impact this work would have in shaping me. Driven by a desire to connect with people in need, I have been blessed to learn from the stories of many who overcome extraordinary challenges. Among the people I have been privileged to meet are:</p>
-              <p><button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+              <p>I began my practice in 2000 with at-risk parents and children, not knowing the impact this work would have in shaping me. Driven by a desire to connect with people in need, I have been blessed to learn from the stories of many who have overcome extraordinary challenges. Among the people I have been privileged to meet are:</p>
+              <p><button class="btn btn-warning text-dark" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
               Read More</button>
               </p>
             </div>
@@ -59,7 +59,7 @@
                   <li>and those searching for peace from thoughts of suicide</li>
                 </ul>
                 <p class="pt-2">My experience has included work as an Early Interventionist, service as a Social Work Officer in the Canadian Armed Forces, Pediatric Social Worker with the IWK Health Centre, and a Child and Family Therapist with New Directions Parenting Centre in Manitoba and Greenwood Military Family Resource Centre.</p>
-                <p>I use a variety of therapeutic approaches rooted in attachment theory. I am trained in Cognitive Behavioural Therapy, EMDR, Emotion Focused Therapy, Mindfulness, Family Systems, Circle of Security Parenting. I also have training in play based therapies including Theraplay. My areas of specialization include trauma (developmental/attachment and complex trauma/ PTSD), parenting difficulties/disruptive behaviour, couple therapy, treatment of anxiety, adjustment, and depression (including Post-Partum), and exceptionalities including ADHD and Autism.</p>
+                <p>I use a variety of therapeutic approaches rooted in attachment theory. I am trained in Cognitive Behavioural Therapy, EMDR, Emotion Focused Therapy, Mindfulness, Family Systems, and Circle of Security Parenting. I also have training in play based therapies including Theraplay. My areas of specialization include trauma (developmental/attachment and complex trauma/ PTSD), parenting difficulties/disruptive behaviour, couple therapy, treatment of anxiety, adjustment, and depression (including Post-Partum), and exceptionalities including ADHD and Autism.</p>
                 <p>The common thread in my work, and my daily inspiration, is the hope of relationship and healing.</p>
               </div>
             </div>

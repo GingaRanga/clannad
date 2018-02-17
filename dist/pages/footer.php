@@ -68,7 +68,7 @@
                     <label for="comments">Enter your message here</label>
                     <textarea name="comments" class="form-control" id="comments" rows="3"></textarea>
                   </div>
-                  <button name="submit" type="submit" class="btn btn-warning btn-block" value="Submit">Submit</button>
+                  <button name="submit" type="submit" class="btn btn-warning btn-block text-dark" value="Submit">Submit</button>
                 </fieldset>
               </form>
             </div>
