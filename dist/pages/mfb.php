@@ -18,6 +18,11 @@
           </a>
         </li>
         <li>
+          <a href="/" data-mfb-label="Homepage" class="mfb-component__button--child">
+            <i class="mfb-component__child-icon text-white fa fa-home fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
           <a href="#page-top" data-mfb-label="Back to top" class="mfb-component__button--child">
             <i class="mfb-component__child-icon text-white fa fa-arrow-up fa-2x" aria-hidden="true"></i>
           </a>

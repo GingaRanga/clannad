@@ -3,7 +3,7 @@
   <section id="quicklook">
     <div class="container text-light pb-5">
       <div class="row">
-        <div class="col-sm-12 col-md-4 cards">
+        <div class="col-sm-12 col-md-4 cards fade">
           <div class="card">
             <img class="card-img-top img-fluid" src="/img/couple_embrace.jpg" alt="Card image cap">
             <div class="card-body bg-primary">
@@ -13,7 +13,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 cards">
+        <div class="col-sm-12 col-md-4 cards fade">
           <div class="card">
             <img class="card-img-top img-fluid" src="/img/hands_sappling.jpg" alt="Card image cap">
             <div class="card-body bg-primary">
@@ -23,7 +23,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 cards">
+        <div class="col-sm-12 col-md-4 cards fade">
           <div class="card">
             <img class="card-img-top img-fluid" src="/img/horse.jpg" alt="Card image cap">
             <div class="card-body bg-primary">

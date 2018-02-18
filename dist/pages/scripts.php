@@ -1,7 +1,5 @@
   <!-- GSAP JS ///////////////////////////////////////////////////////////////////////////////////////// -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenLite.min.js" integrity="sha256-urKHuZ772q9CZZjbN5geWh0ObNvIL4INeQTSQkZC2/M=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/CSSPlugin.min.js" integrity="sha256-DVfSynPZfzB2Mca3EebIt2UJmcQfeWPtUe0+Tghv4cc=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/easing/EasePack.min.js" integrity="sha256-s+GIux/BR9VHE/ZEUljQnq/7vhsLnKMxxOtGjcDQE4w=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js" integrity="sha256-S6G5lg9rzC1JCAkx3dQFqP2lefkFxwlNVn0rWCOueXA=" crossorigin="anonymous"></script>
   <!-- <script>window.jQuery || document.write('#"><x3C/script>')</script> -->
   <!-- <script>window.jQuery || document.write('#"><x3C/script>')</script> -->
   <!-- <script>window.jQuery || document.write('#"><x3C/script>')</script> -->
@@ -18,6 +16,7 @@
 
   <!-- ScrollMagic -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js" integrity="sha256-+bwq8Vn1b2Nz1mF35GyYCR3WP1zNBq6AX9P+rIR/vg8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js" integrity="sha256-/6NS53KuMVgzxQozkNjhDjwcyDmv8Sk52zodr91uoo4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js" integrity="sha256-h8XvjWyCJSpIWTvjHOnvHOoYiYNnSzc2DQb6WZCsDb4=" crossorigin="anonymous"></script>
 
   <!-- includes both bootstrap js, mfb, slick and custom -->

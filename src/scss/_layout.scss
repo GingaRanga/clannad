@@ -9,30 +9,22 @@ html, body{
 	overflow-x: hidden;
 }
 
-@include media-breakpoint-up(sm) {
-	body{
-		/* background: red; */
-		padding-top: 56px; /* new style for header-test.php */
-		background: $light;
-	}
-	.mfb-component--br{
-		display: none;
-	}
-};
-
-@include media-breakpoint-down(sm) {
-	.hero, .contact{
-		background-attachment: scroll;
-	}
-	.alert{
-		margin-top: 49px;
-	}
-};
-
 section{
 	padding: 50px 0 30px;
 }
 
+// ScrollMagic Styles
+.fade{
+	opacity: 0;
+	transition: all 1s ease-out;
+}
+
+.fade.fade-in{
+	opacity: 1;
+	/* transform: translateY(0); */
+}
+
+// Social Styles
 .nav-facebook:hover, .nav-facebook:focus {
   color: #3b5998;
 }
@@ -44,3 +36,28 @@ section{
 .nav-linkedin:hover, .nav-facebook:focus {
   color: #0077b5;
 }
+
+// Media Queries
+@include media-breakpoint-up(sm) {
+	body{
+		/* background: red; */
+		padding-top: 59px; /* new style for header-test.php */
+		background: $light;
+	}
+	.mfb-component--br{
+		display: none;
+	}
+};
+
+@include media-breakpoint-down(sm) {
+	body{
+		padding-top: 49px;
+		/* background-color: red; */
+	}
+	.contact{
+		background-attachment: scroll;
+	}
+	.alert{
+		margin-top: 49px;
+	}
+};
