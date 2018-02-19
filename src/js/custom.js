@@ -9,6 +9,26 @@ $(document).ready(function(){
 	// Init ScrollMagic
 	var controller = new ScrollMagic.Controller(); // tells browser to use scroll bar and trigger animation
 
+	var parallaxTl = new TimelineMax();
+	parallaxTl
+		.from('.content-wrapper', 0.3, {autoAlpha: 0, ease:Power0.easeNone}, 0) // autoalpha fades in
+		.from('.hero', 1, {y: '-20%', ease:Power0.easeNone}, 0); // if hero set to height 150% then y-offset max is 50%. the last zero starts it first in the timeline at absolute postion 0
+
+	var slideParallaxScene = new ScrollMagic.Scene({
+		triggerElement: '.hero-parallax',
+		triggerHook: 0.1,
+		duration: '60%'
+	})
+	.setTween(parallaxTl)
+	// .addIndicators({
+	// 	name: 'hero parallax scene',
+	// 	colorTrigger: 'red',
+	// 	// indent: 200,
+	// 	colorStart: 'green',
+	// 	colorEnd: 'purple'
+	// })
+	.addTo(controller);
+
 	// Loop through each scene with the main class .fade
 	$('.fade').each(function(){
 		// Build scene2 for animation

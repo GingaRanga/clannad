@@ -47,6 +47,9 @@ section{
 	.mfb-component--br{
 		display: none;
 	}
+	.alert{
+		margin-top: 59px;
+	}
 };
 
 @include media-breakpoint-down(sm) {
