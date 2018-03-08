@@ -12,7 +12,7 @@
           <a class="nav-link <?php echo ($page == "services" ? "active" : "")?>" href="/pages/services.php">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php echo ($page == "counsellors" ? "active" : "")?>" href="/pages/counsellors.php">Counsellors</a>
+          <a class="nav-link <?php echo ($page == "counsellors" ? "active" : "")?>" href="/pages/counsellors.php">Our Team</a>
         </li>
         <li class="nav-item">
           <a class="nav-link <?php echo ($page == "eap" ? "active" : "")?>" href="/pages/eap.php">EAP</a>
@@ -20,10 +20,13 @@
         <li class="nav-item">
           <a class="nav-link <?php echo ($page == "workshops" ? "active" : "")?>" href="/pages/workshops.php">Workshops</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link <?php echo ($page == "events" ? "active" : "")?>" href="/pages/events.php">Events</a>
+        </li>
         <!-- <li class="nav-item">
           <a class="nav-link" href="/pages/faqs.php">FAQs</a>
         </li> -->
-        <li class="nav-item">
+        <li class="nav-item d-none d-sm-block">
           <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>

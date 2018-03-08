@@ -8,7 +8,7 @@
 				<div class="row">
 					<div class="col-lg-6">
 						<p>Clannad offers a full range of workshops and training to the community. We deliver tailored workshops on topics including but not limited to:</p>
-						<ul class="pb-3">
+						<ul class="pb-3 left">
 							<li>Attachment</li>
 							<li>Circle of Security</li>
 							<li>Trauma & Providing Trauma Informed Care/Service</li>

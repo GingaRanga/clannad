@@ -11,12 +11,19 @@
 	height: 120%;
 	top: 0;
 	z-index: 1;
-	background-position: 0% -20%;
+	background-position: 0% -130%;
 }
 
 .content-wrapper{
 	position: relative;
 	z-index: 2;
+}
+
+.hero-small{
+	background: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,0.2)), url('/img/feet_in_hands.jpg');
+	@include heroImg();
+	height: 50vh;
+	background-attachment: scroll;
 }
 
 @include media-breakpoint-down(sm) {

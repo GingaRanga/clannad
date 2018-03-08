@@ -3,7 +3,7 @@
   <section>
     <div class="container">
       <div class="wrap">
-        <h1>Our Counsellors</h1>
+        <h1>Our Team</h1>
         <hr class="mb-5">
         <div class="row">
           <div class="p-3 col-lg-6">
@@ -14,7 +14,7 @@
               </div>
             </div>
             <h3 class="pt-2">Stephanie Townsend <small>MA, RCT-C</small></h3>
-            <h5 class="text-muted">- Counsellor -</h5>
+            <h5 class="text-muted">- Counselling Therapist -</h5>
             <div class="card card-body">
               <p>Connecting through relationship and supporting individuals in their own healing journey has always been a passion of mine. My work has lead me from community development work to grass roots community based counselling. The common thread has been about building relationships. Recognizing the importance...</p>
               <p><button class="btn btn-warning text-dark" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
@@ -37,7 +37,7 @@
               </div>
             </div>
             <h3 class="pt-2">Michelle MacIsaac <small>MSW, RSW</small></h3>
-            <h5 class="text-muted">- Counsellor -</h5>
+            <h5 class="text-muted">- Clinical Social Worker -</h5>
             <div class="card card-body">
               <p>I began my practice in 2000 with at-risk parents and children, not knowing the impact this work would have in shaping me. Driven by a desire to connect with people in need, I have been blessed to learn from the stories of many who have overcome extraordinary challenges. Among the people I have been privileged to meet are:</p>
               <p><button class="btn btn-warning text-dark" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
@@ -46,7 +46,7 @@
             </div>
             <div class="collapse" id="collapseExample2">
               <div class="card card-body">
-                <ul>
+                <ul class="left">
                   <li>children with exceptionalities and their families</li>
                   <li>multi-stressed families</li>
                   <li>military members and veterans </li>

@@ -123,7 +123,7 @@
 	<meta property="og:url" content="https://www.clannad.ca">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Clannad Counselling & Consulting">
-	<meta property="og:image" content="https://www.clannad.ca/img/main_logo.svg">
+	<meta property="og:image" content="https://www.clannad.ca/img/social-banner.png">
 	<meta property="og:description" content="Promoting hope and healing for families within our community through professional, inclusive and holistic therapy services and training.">
 	<meta property="og:site_name" content="Clannad Counselling & Consulting">
 	<meta property="og:locale" content="en_US">
@@ -136,13 +136,13 @@
 	<meta name="twitter:url" content="https://example.com/page.html">
 	<meta name="twitter:title" content="Clannad Counselling & Consulting">
 	<meta name="twitter:description" content="Promoting hope and healing for families within our community through professional, inclusive and holistic therapy services and training.">
-	<meta name="twitter:image" content="https://www.clannad.ca/img/main_logo.svg">
+	<meta name="twitter:image" content="https://www.clannad.ca/img/social-banner.png">
 
 	<!-- GOOGLE+ & SCHEMA.ORG META -->
 	<link href="https://plus.google.com/+YourPage" rel="publisher">
 	<meta itemprop="name" content="Clannad Counselling & Consulting">
 	<meta itemprop="description" content="Promoting hope and healing for families within our community through professional, inclusive and holistic therapy services and training.">
-	<meta itemprop="image" content="https://www.clannad.ca/img/main_logo.svg">
+	<meta itemprop="image" content="https://www.clannad.ca/img/social-banner.png">
 
 	<!-- BOOTSTRAP 4 STYLESHEETS & CUSTOM - before all other stylesheets -->
 	<link rel="stylesheet" href="/css/styles.css">
