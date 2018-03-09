@@ -23,6 +23,9 @@
         <li class="nav-item">
           <a class="nav-link <?php echo ($page == "events" ? "active" : "")?>" href="/pages/events.php">Events</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link <?php echo ($page == "careers" ? "active" : "")?>" href="/pages/careers.php">Careers</a>
+        </li>
         <!-- <li class="nav-item">
           <a class="nav-link" href="/pages/faqs.php">FAQs</a>
         </li> -->

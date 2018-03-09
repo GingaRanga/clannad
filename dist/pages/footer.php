@@ -14,7 +14,7 @@
               </div>
               <div>
                 <h3 class="lead text-secondary">Contact:</h3>
-                <p>Phone&#58; <a href="tel:+19023653363">&#40;902&#41; 365&#45;3363</a><br>
+                <p>Phone&#58; <a href="tel:+19023653363">1&#45;902&#45;365&#45;3363</a><br>
                 Fax&#58; <a href="tel:+19023652630">1&#45;902&#45;365&#45;2630</a></p>
               </div>
               <div>
