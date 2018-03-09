@@ -47,3 +47,4 @@
       <!-- <a class="nav-link btn btn-warning text-white disabled" role="button" href="#">Book a consult</a> -->
     </nav>
   </div>
+  <!-- <?php //include('event-alert.php'); ?> -->
